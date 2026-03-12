@@ -17,7 +17,7 @@ theme:
     - scheme: slate
       primary: deep purple
       accent: teal
-      toggle:
+        toggle:
         icon: material/brightness-4
         name: Switch to light mode
   features:
@@ -28,12 +28,23 @@ theme:
 markdown_extensions:
   - toc:
       permalink: true
-  - attr_list  # Enables {target="_blank"} syntax as fallback
+  - attr_list  # For manual {target="_blank"} if needed
 
 plugins:
   - search
-  - open-in-new-tab  # Auto-opens external/PDF links in new tabs
+  - open-in-new-tab:
+      add_icon: true  # Adds ↗ icon to external/PDF links
 
+nav:
+  - Home: index.md
+  - Scout Association Links: scouts-links.md
+  - Campsites: campsites.md
+  - Programme Ideas: programme-ideas.md
+  - Tools & Apps: tools.md
+  - Useful Links: links.md
+
+extra_css:
+  - overrides/extra.css
 nav:
   - Home: index.md
   - Scout Association Links: scouts-links.md
