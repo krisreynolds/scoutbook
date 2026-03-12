@@ -10,13 +10,13 @@ theme:
   palette:
     - scheme: default
       primary: deep purple
-      accent: purple
+      accent: teal
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     - scheme: slate
       primary: deep purple
-      accent: purple
+      accent: teal
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
@@ -35,3 +35,6 @@ nav:
   - Programme Ideas: programme-ideas.md
   - Tools & Apps: tools.md
   - Useful Links: links.md
+
+extra_css:
+  - overrides/extra.css
