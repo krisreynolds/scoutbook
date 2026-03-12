@@ -31,6 +31,7 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+  - Scout Association Links: scouts-links.md
   - Campsites: campsites.md
   - Programme Ideas: programme-ideas.md
   - Tools & Apps: tools.md
