@@ -28,6 +28,11 @@ theme:
 markdown_extensions:
   - toc:
       permalink: true
+  - attr_list  # Enables {target="_blank"} syntax as fallback
+
+plugins:
+  - search
+  - open-in-new-tab  # Auto-opens external/PDF links in new tabs
 
 nav:
   - Home: index.md
