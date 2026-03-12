@@ -5,8 +5,8 @@ site_url: https://krisreynolds.github.io/scoutbook
 theme:
   name: material
   font:
-    text: Nunito Sans        # body text
-    code: DM Mono       # code blocks
+    text: Nunito Sans
+    code: DM Mono
   palette:
     - scheme: default
       primary: deep purple
@@ -17,7 +17,7 @@ theme:
     - scheme: slate
       primary: deep purple
       accent: teal
-        toggle:
+      toggle:
         icon: material/brightness-4
         name: Switch to light mode
   features:
@@ -28,23 +28,13 @@ theme:
 markdown_extensions:
   - toc:
       permalink: true
-  - attr_list  # For manual {target="_blank"} if needed
+  - attr_list
 
 plugins:
   - search
   - open-in-new-tab:
-      add_icon: true  # Adds ↗ icon to external/PDF links
+      add_icon: true
 
-nav:
-  - Home: index.md
-  - Scout Association Links: scouts-links.md
-  - Campsites: campsites.md
-  - Programme Ideas: programme-ideas.md
-  - Tools & Apps: tools.md
-  - Useful Links: links.md
-
-extra_css:
-  - overrides/extra.css
 nav:
   - Home: index.md
   - Scout Association Links: scouts-links.md
