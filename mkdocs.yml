@@ -4,10 +4,22 @@ site_url: https://krisreynolds.github.io/scoutbook
 
 theme:
   name: material
+  font:
+    text: Nunito Sans        # body text
+    code: DM Mono       # code blocks
   palette:
-    scheme: slate
-    primary: green
-    accent: light green
+    - scheme: default
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
   features:
     - navigation.sections
     - navigation.top
