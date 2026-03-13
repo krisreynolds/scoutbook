@@ -94,8 +94,12 @@
 
 [data-md-color-scheme="slate"] .md-content h3,
 [data-md-color-scheme="slate"] .md-content h3 + p {
-  background: #1e1a2e;
-  border-color: #3a2f5e;
+  background: #f3eafd;
+  border-color: #c9a5f0;
+}
+
+[data-md-color-scheme="slate"] .md-content h3 + p {
+  color: #1e1a2e;
 }
 
 /* ─── Spacing ─────────────────────────────────────────── */
