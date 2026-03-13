@@ -580,12 +580,22 @@
               </div>
             
           
-  <div class="md-nav-extra">
+  <div id="md-nav-extra" style="display:none; flex-direction:column; gap:0.5rem; padding:0.75rem 1rem;">
     <a href="https://github.com/krisreynolds/scoutbook/issues/new/choose" class="md-nav-extra__submit">
       ➕ Submit an entry
     </a>
     <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="krisreynolds" data-color="#FFDD00" data-emoji="🍺" data-font="Cookie" data-text="Say thanks with a beer" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff"></script>
   </div>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      var extra = document.getElementById("md-nav-extra");
+      var sidebar = document.querySelector(".md-sidebar--primary .md-sidebar__inner");
+      if (extra && sidebar) {
+        extra.style.display = "flex";
+        sidebar.appendChild(extra);
+      }
+    });
+  </script>
 
           
             <div class="md-content" data-md-component="content">
