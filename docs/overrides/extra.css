@@ -3,4 +3,160 @@
   --md-primary-fg-color--light: #9B4FE8;
   --md-primary-fg-color--dark: #5A0FB8;
   --md-accent-fg-color: #00A794;
+
+  /* Scout brand palette */
+  --scout-purple: #7413DC;
+  --scout-purple-dark: #5A0FB8;
+  --scout-purple-muted: #f3eafd;
+  --scout-teal: #00A794;
+  --scout-teal-muted: #e0f5f2;
+  --scout-green: #84A40B;
+  --scout-orange: #ED7703;
+  --scout-black: #001323;
+}
+
+/* ─── County headings ─────────────────────────────────── */
+
+.md-content h2 {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--scout-purple);
+  border-bottom: 2px solid var(--scout-purple);
+  padding-bottom: 0.4rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Hide the default MkDocs anchor symbol on h2/h3 */
+.md-content h2 .headerlink,
+.md-content h3 .headerlink {
+  display: none;
+}
+
+/* ─── Campsite cards ──────────────────────────────────── */
+
+.md-content h3 {
+  /* Reset default styling — the card below does the visual work */
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 0 0.25rem 0;
+  padding: 0;
+  border: none;
+  color: var(--scout-black);
+}
+
+.md-content h3 a {
+  color: var(--scout-purple);
+  text-decoration: none;
+}
+
+.md-content h3 a:hover {
+  text-decoration: underline;
+  color: var(--scout-purple-dark);
+}
+
+/*
+  Wrap each h3 + following paragraph in a card.
+  MkDocs renders h3 and its paragraph as siblings, so we use
+  a combination of margin, border-left accent, and padding
+  on the paragraph to create the card feel without JS.
+*/
+
+.md-content h3 {
+  background: #fff;
+  border: 1px solid #e8e0f5;
+  border-left: 4px solid var(--scout-purple);
+  border-radius: 0 8px 0 0;
+  padding: 0.75rem 1rem 0.5rem 1rem;
+  margin-top: 0.75rem;
+  margin-bottom: 0;
+}
+
+.md-content h3 + p {
+  background: #fff;
+  border: 1px solid #e8e0f5;
+  border-top: none;
+  border-left: 4px solid var(--scout-purple);
+  border-radius: 0 0 8px 8px;
+  padding: 0.5rem 1rem 0.75rem 1rem;
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  font-size: 0.85rem;
+  color: #3a3a4a;
+  line-height: 1.65;
+}
+
+/* Scout Adventures ⚜️ sites get a teal accent instead */
+.md-content h3:has(a[href*="scoutadventures"]) {
+  border-left-color: var(--scout-teal);
+  background: #f7fefe;
+}
+
+.md-content h3:has(a[href*="scoutadventures"]) + p {
+  border-left-color: var(--scout-teal);
+  background: #f7fefe;
+}
+
+.md-content h3:has(a[href*="scoutadventures"]) a {
+  color: #007a6e;
+}
+
+.md-content h3:has(a[href*="scoutadventures"]) a:hover {
+  color: var(--scout-teal);
+}
+
+/* ─── Intro paragraph (submit link + legend) ─────────── */
+
+.md-content h1 + p a,
+.md-content h1 ~ p:first-of-type a {
+  display: inline-block;
+  background: var(--scout-purple);
+  color: #fff !important;
+  padding: 0.35rem 0.85rem;
+  border-radius: 4px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+  transition: background 0.15s;
+}
+
+.md-content h1 + p a:hover {
+  background: var(--scout-purple-dark);
+}
+
+/* ─── Spacing & rhythm ───────────────────────────────── */
+
+.md-content h1 {
+  margin-bottom: 1.25rem;
+}
+
+/* Add a little breathing room between county sections */
+.md-content h2 + h3 {
+  margin-top: 0.5rem;
+}
+
+/* ─── Dark mode ──────────────────────────────────────── */
+
+[data-md-color-scheme="slate"] .md-content h3,
+[data-md-color-scheme="slate"] .md-content h3 + p {
+  background: #1e1e2e;
+  border-color: #3a2f5e;
+}
+
+[data-md-color-scheme="slate"] .md-content h3:has(a[href*="scoutadventures"]),
+[data-md-color-scheme="slate"] .md-content h3:has(a[href*="scoutadventures"]) + p {
+  background: #0f2422;
+  border-color: #0d4a42;
+}
+
+[data-md-color-scheme="slate"] .md-content h3 + p {
+  color: #c8c8d8;
+}
+
+[data-md-color-scheme="slate"] .md-content h2 {
+  color: #b07ef0;
+  border-bottom-color: #b07ef0;
 }
