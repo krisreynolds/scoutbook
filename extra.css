@@ -66,7 +66,7 @@
   line-height: 1.65;
 }
 
-/* ─── Submit button ───────────────────────────────────── */
+/* ─── Submit button (in content) ─────────────────────── */
 
 .md-content h1 + p a {
   display: inline-block;
@@ -82,6 +82,35 @@
 }
 
 .md-content h1 + p a:hover {
+  background: var(--scout-purple-dark);
+}
+
+/* ─── Nav extra buttons ───────────────────────────────── */
+
+.md-nav-extra {
+  display: none;
+}
+
+.md-sidebar--primary .md-nav-extra {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+}
+
+.md-nav-extra__submit {
+  display: block;
+  text-align: center;
+  background: var(--md-primary-fg-color);
+  color: #fff !important;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.md-nav-extra__submit:hover {
   background: var(--scout-purple-dark);
 }
 
