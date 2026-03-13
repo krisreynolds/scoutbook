@@ -1,22 +1,92 @@
-# Scoutbook 🏕️
-
-## Campsites
+# Scoutbook - Campsites
 
 [➕ Submit an entry](https://github.com/krisreynolds/scoutbook/issues/new/choose)
+
+## Avon
+
+### [Chelwood Campsite](https://www.1stkeynshamscouts.org.uk/chelwood/)
+A 30-acre site hidden in the Avon countryside with broad camping fields, woodland edges, and a winding stream perfect for bivouacking.
+
+## Dorset
+
+### [Avon Tyrrell Outdoor Centre](https://avontyrrell.org.uk/)
+Set in the New Forest National Park, this centre offers open camping space, activity sessions, and outdoor learning facilities.
+
+### [Braggers Wood](https://braggers.christchurchscouts.org.uk/)
+A traditional woodland site close to the New Forest and coast, featuring modern facilities and a variety of on-site activities.
+
+### [Butchers Coppice](https://www.butcherscoppice.org.uk/)
+A 7½-acre site in north-west Bournemouth with easy access to Poole, Christchurch, and Wimborne.
 
 ## Essex
 
 ### [Belchamps Scout Activity Centre](https://www.belchamps.org.uk/)
-Belchamps Scout Activity Centre offers 28 acres of fantastic camping fields set in the beautiful Essex countryside. They currently have 3 indoor accommodations and a large range of activities for young people of all ages. Whether you are looking for a full residential experience or just a day visit, all of their staff will ensure that your event is safe, excellent value for money and full of fun. There are many on-site activities so there’s always something to do at Belchamps. They have something for all ages and abilities and we endeavor to make sure that no one is left out of the fun. They have room for up to 2000 people camping across the 20 different camping fields. If you have a large enough event, exclusive use of the site can be booked. The Centre is co-owned by 4 surrounding districts – Castle Point, Crouch Valley, Southend Estuary, and Southend West. As the owners, groups from these 4 Scout districts enjoy discounted pricing, ask for details. The site’s committee has representatives from the owner districts as well as many other amazing volunteers.
+A 28-acre activity centre with open fields, three lodges, and a wide mix of adventurous activities for all ages.
 
 ### [King Edward VIII (Riffhams)](https://www.chelmsfordscouts.org.uk/about/riffhams/)
-King Edward VIII Scout Park, also known as Riffhams, is a 4 hectare wooded site adjacent to over 100 hectares of National Trust land in Little Baddow, near Chelmsford, Essex. We are located only a few miles from the site of the 2007 World Jamboree at Hylands Park.
+A 4-hectare wooded site beside National Trust land in Little Baddow, just a few miles from Hylands Park.
 
 ### [Prances Scout Campsite & Activity Centre](https://www.prances.org.uk/)
-Located in the heart of Essex on the outskirts Wickham Bishops, Prances offers a wide range of activities both on and off site. The site is suitable for both large and small groups with a large camping field, a number of smaller ‘Patrol Camping Areas’ and residential accommodation.
+Located near Wickham Bishops, this site offers large and small camping fields, patrol areas, and residential accommodation.
 
 ### [Skreens Park Activity Centre](https://skreenspark.org.uk/)
-Situated just outside Essex’s newest city, Chelmsford, Skreens Park Activity Centre is home to action packed activities and experiences. One of the core aims of the site is to give young people the opportunity to challenge and empower themselves to do something different and exciting. With its range of modern, fully equipped buildings and established camping areas, Skreens Park Activity Centre is well prepared to host and assist you in creating your adventure. Skreens Park Activity Centre offers a variety of staff-led and self-led adventurous activities for people of all ages to enjoy.
+Close to Chelmsford, Skreens Park combines modern facilities with a wide choice of adventurous and team-building activities.
 
 ### [Thriftwood](http://www.thriftwood.org.uk/)
-Thriftwood Scout Campsite is an international Scout camping and activity centre set in about 76 acres of private woodland near Brentwood in Essex, offering a mix of open camping fields, wooded sites, and a wide range of adventurous activities such as archery, climbing and rifle shooting for Scouts and other youth groups.
+Set in 76 acres near Brentwood, Thriftwood features open and wooded camping areas plus activities like archery, climbing, and shooting.
+
+## Hampshire
+
+### [Cranbury Park](https://www.arrowscouts.org.uk/AboutUs/District-Campsite)
+Two acres of parkland within the Cranbury Park Estate, open from March to November.
+
+### [Cricket Campsite](https://www.itchenscouts.org.uk/AboutUs/Cricket-Camp)
+Set in River Hamble Country Park, the site includes woodlands, fields, and clearings across over 400 acres.
+
+### [Ferny Crofts Scout Activity Centre](https://www.fernycrofts.org.uk/)
+A 31-acre site in the New Forest National Park offering camping for hundreds and a large range of outdoor activities.
+
+### [Harry's Island](https://newforestscouts.org.uk/campsite-harrys-island/)
+A four-acre private site near Burley, ideal for quiet, back-to-basics camping in the New Forest.
+
+### [Lyons Copse](https://www.lyonscopse.org.uk/)
+A versatile site for up to 700 campers with indoor accommodation and varied activities.
+
+### [Pinsent Campsite](https://www.winscouts.org/AboutUs/CampsiteHome)
+A 6-acre wooded site with individual areas and firepits, perfect for traditional or back-to-basics camping.
+
+## Kent
+
+### [Hopehill Campsite](https://www.graveshamscouts.org.uk/hopehill-campsite/)
+A peaceful site in North West Kent surrounded by woodland and grassy glades, ideal for camping and outdoor challenges.
+
+## Greater London
+
+### [Bounds Green Scout Park](https://londonscouts.org.uk/venues/scout-park/)
+An 8-acre park within the North Circular, easily reached from Bounds Green station and 30 minutes from central London.
+
+### [Danemead Campsite](https://danemeadcampsite.org.uk/)
+A 35-acre ancient woodland site near Broxbourne, perfect for backwoods activities and lightweight camps.
+
+## Surrey
+
+### [Birchmere](http://www.birchmerescoutcampsite.org/)
+A flexible site suited for everything from small hike camps to week-long events, with easy access to local attractions.
+
+### [Polyapes Campsite](https://www.polyapes.org.uk/)
+Covers 30 acres of grassland and woodland on a high ridge, offering classic camping and indoor accommodation.
+
+## West Sussex
+
+### [Furzefield](https://alscouts.org.uk/campsite/)
+A welcoming site near Arundel, set in woodland and meadow, run by local volunteers.
+
+## Swansea
+
+### [Silver Cross](https://www.silvercross.org.uk/)
+A 15-acre woodland site with easy transport links and close access to the Gower Peninsula and Brecon Beacons.
+
+## South Yorkshire
+
+### [Hesley Wood](https://hesleywood.org.uk/)
+132 acres of fields and woodland with three lodges and 26 camping pitches set for exploration and adventure.
