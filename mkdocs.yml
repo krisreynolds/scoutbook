@@ -41,9 +41,11 @@ nav:
   - Scout Association Links: scouts-links.md
   - Campsites: campsites.md
   - Programme Ideas: programme-ideas.md
-  - External activity providers: external-providers.md
+  - External Activity Providers: external-providers.md
+  - Shops & Suppliers: shops-suppliers.md
   - Tools & Apps: tools.md
   - Useful Links: links.md
+  - Scout Discounts: discounts.md
 
 extra_css:
   - overrides/extra.css
