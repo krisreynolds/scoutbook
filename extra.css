@@ -1,4 +1,4 @@
-:root {
+ :root {
   --md-primary-fg-color: #7413DC;
   --md-primary-fg-color--light: #9B4FE8;
   --md-primary-fg-color--dark: #5A0FB8;
@@ -10,14 +10,14 @@
   --scout-black: #001323;
 }
 
-/* ─── Hide headlinks ───────────────────────────────────── */
+/* â”€â”€â”€ Hide headlinks â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 
 .md-content h2 .headerlink,
 .md-content h3 .headerlink {
   display: none;
 }
 
-/* ─── H2 County Labels (no card) ───────────────────────── */
+/* â”€â”€â”€ H2 County Labels (no card) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 
 .md-content h2 {
   font-size: 0.7rem;
@@ -31,7 +31,7 @@
   border-bottom: 2px solid var(--scout-purple);
 }
 
-/* ─── Light Mode H3 Cards ───────────────────────────────── */
+/* â”€â”€â”€ Light Mode H3 Cards â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 
 .md-content h3 {
   font-size: 1rem;
@@ -68,7 +68,12 @@
   color: #495057;
 }
 
-/* ─── Dark Mode H3 Cards ────────────────────────────────── */
+/* â”€â”€â”€ Dark Mode H3 Cards â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+
+[data-md-color-scheme="slate"] .md-content h2 {
+  color: #c9a5f0;
+  border-bottom-color: #c9a5f0;
+}
 
 [data-md-color-scheme="slate"] .md-content h3 {
   color: #e0d7ff;
@@ -82,12 +87,7 @@
   border-color: #4a4a6a;
 }
 
-[data-md-color-scheme="slate"] .md-content h2 {
-  color: #c9a5f0;
-  border-bottom-color: #c9a5f0;
-}
-
-/* ─── Submit button ────────────────────────────────────── */
+/* â”€â”€â”€ Submit button â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 
 .md-content h1 + p a {
   display: inline-block;
@@ -106,7 +106,7 @@
   background: var(--scout-purple-dark);
 }
 
-/* ─── Nav buttons ─────────────────────────────────────── */
+/* â”€â”€â”€ Nav buttons â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 
 #md-nav-extra {
   padding: 0.75rem 1rem;
@@ -140,7 +140,7 @@
   color: #000 !important;
 }
 
-/* ─── Spacing ─────────────────────────────────────────── */
+/* â”€â”€â”€ Spacing â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 
 .md-content h1 {
   margin-bottom: 1.25rem;
