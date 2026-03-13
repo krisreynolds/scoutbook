@@ -17,32 +17,33 @@
   display: none;
 }
 
-/* â”€â”€â”€ H2 County Labels (no card) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+/* â”€â”€â”€ H2 County Labels â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 
 .md-content h2 {
-  font-size: 0.7rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: var(--scout-purple);
-  margin-top: 2.5rem;
-  margin-bottom: 1rem;
-  padding: 0.5rem 0;
-  border-bottom: 2px solid var(--scout-purple);
+  font-size: 0.7rem !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.1em !important;
+  color: var(--scout-purple) !important;
+  margin-top: 2.5rem !important;
+  margin-bottom: 1rem !important;
+  padding: 0.5rem 0 !important;
+  border-bottom: 2px solid var(--scout-purple) !important;
+  background: none !important;
 }
 
 /* â”€â”€â”€ Light Mode H3 Cards â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 
 .md-content h3 {
-  font-size: 1rem;
-  font-weight: 600;
-  padding: 0.75rem 1rem 0.5rem;
-  border: 1px solid #e9ecef;
-  border-left: 4px solid var(--scout-purple);
-  border-radius: 0 8px 0 0;
-  color: #212529;
-  background: #f8f9fa;
-  margin: 0.75rem 0 0;
+  font-size: 1rem !important;
+  font-weight: 600 !important;
+  padding: 0.75rem 1rem 0.5rem !important;
+  border: 1px solid #e9ecef !important;
+  border-left: 4px solid var(--scout-purple) !important;
+  border-radius: 0 8px 0 0 !important;
+  color: #212529 !important;
+  background: #f8f9fa !important;
+  margin: 0.75rem 0 0 !important;
 }
 
 .md-content h3 a {
@@ -56,41 +57,43 @@
 }
 
 .md-content h3 + p {
-  background: #f8f9fa;
-  border: 1px solid #e9ecef;
-  border-top: none;
-  border-left: 4px solid var(--scout-purple);
-  border-radius: 0 0 8px 8px;
-  padding: 0.5rem 1rem 0.75rem;
-  margin: 0 0 0.75rem 0;
-  font-size: 0.85rem;
-  line-height: 1.65;
-  color: #495057;
+  background: #f8f9fa !important;
+  border: 1px solid #e9ecef !important;
+  border-top: none !important;
+  border-left: 4px solid var(--scout-purple) !important;
+  border-radius: 0 0 8px 8px !important;
+  padding: 0.5rem 1rem 0.75rem !important;
+  margin: 0 0 0.75rem 0 !important;
+  font-size: 0.85rem !important;
+  line-height: 1.65 !important;
+  color: #495057 !important;
 }
 
 /* â”€â”€â”€ Dark Mode â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 
 [data-md-color-scheme="slate"] .md-content h2 {
-  color: var(--scout-teal);
-  border-bottom-color: var(--scout-teal);
+  color: var(--scout-teal) !important;
+  border-bottom-color: var(--scout-teal) !important;
 }
 
 [data-md-color-scheme="slate"] .md-content h3 {
-  color: #e0d7ff;
-  background: #2a2a3e;
-  border-color: #4a4a6a;
+  color: #e0d7ff !important;
+  background: #2a2a3e !important;
+  border-color: #4a4a6a !important;
 }
 
 [data-md-color-scheme="slate"] .md-content h3 + p {
-  color: #d4d4e8;
-  background: #2a2a3e;
-  border-color: #4a4a6a;
+  color: #d4d4e8 !important;
+  background: #2a2a3e !important;
+  border-color: #4a4a6a !important;
 }
 
 /* â”€â”€â”€ Hide external link arrows â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 
 .md-typeset a[href^="http"]:after,
-.md-typeset a[href^="https"]:after {
+.md-typeset a[href^="https"]:after,
+a[href^="http"] .md-icon--link-external:after,
+a[href^="https"] .md-icon--link-external:after {
   display: none !important;
 }
 
