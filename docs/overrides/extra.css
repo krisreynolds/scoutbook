@@ -85,6 +85,19 @@
   background: var(--scout-purple-dark);
 }
 
+/* ─── Dark mode ──────────────────────────────────────── */
+
+[data-md-color-scheme="slate"] .md-content h2 {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+[data-md-color-scheme="slate"] .md-content h3,
+[data-md-color-scheme="slate"] .md-content h3 + p {
+  background: #1e1a2e;
+  border-color: #3a2f5e;
+}
+
 /* ─── Spacing ─────────────────────────────────────────── */
 
 .md-content h1 {

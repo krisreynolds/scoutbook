@@ -28,6 +28,7 @@ theme:
 markdown_extensions:
   - toc:
       permalink: true
+      toc_depth: 2
   - attr_list
 
 plugins:

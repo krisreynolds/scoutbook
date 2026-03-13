@@ -2,7 +2,7 @@
 
 [➕ Submit an entry](https://github.com/krisreynolds/scoutbook/issues/new/choose)
 
-Sites marked with ⚜️ are run by Scout Adventures, part of The Scout Association.
+*Sites marked with ⚜️ are run by Scout Adventures, part of The Scout Association.*
 
 ## Argyll and Bute
 
