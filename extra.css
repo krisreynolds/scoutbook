@@ -111,3 +111,13 @@
 .md-content h2 + h3 {
   margin-top: 0.5rem;
 }
+
+.md-nav-extra {
+  clear: both;
+  width: 100%;
+}
+
+.md-sidebar--primary .md-sidebar__inner {
+  display: flex;
+  flex-direction: column;
+}
