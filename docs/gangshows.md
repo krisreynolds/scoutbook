@@ -118,7 +118,7 @@
 
 ### [Castle Capers Gang Show](https://castlecapersgs.co.uk/) (Newcastle-Under-Lyme)
 
-## [Stafford Gang Show](https://staffordgangshow.co.uk/)
+### [Stafford Gang Show](https://staffordgangshow.co.uk/)
 
 ## Stirlingshire
 
