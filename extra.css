@@ -66,7 +66,7 @@
   line-height: 1.65;
 }
 
-/* ─── Submit button (in content) ─────────────────────── */
+/* ─── Submit button ───────────────────────────────────── */
 
 .md-content h1 + p a {
   display: inline-block;
@@ -83,40 +83,6 @@
 
 .md-content h1 + p a:hover {
   background: var(--scout-purple-dark);
-}
-
-/* ─── Nav buttons ─────────────────────────────────────── */
-
-#md-nav-extra {
-  padding: 0.75rem 1rem;
-}
-
-#md-nav-extra a.md-nav-btn {
-  display: block !important;
-  text-align: center !important;
-  padding: 0.5rem 1rem !important;
-  border-radius: 4px !important;
-  text-decoration: none !important;
-  font-size: 0.78rem !important;
-  font-weight: 700 !important;
-  margin-bottom: 0 !important;
-  transition: filter 0.15s !important;
-  width: 100% !important;
-  box-sizing: border-box !important;
-}
-
-#md-nav-extra a.md-nav-btn:hover {
-  filter: brightness(0.9);
-}
-
-#md-nav-extra a.md-nav-btn--green {
-  background: #84A40B !important;
-  color: #fff !important;
-}
-
-#md-nav-extra a.md-nav-btn--yellow {
-  background: #FFDD00 !important;
-  color: #000 !important;
 }
 
 /* ─── Dark mode ──────────────────────────────────────── */
