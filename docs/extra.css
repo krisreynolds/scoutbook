@@ -106,15 +106,20 @@
   border-left-color: var(--scout-teal) !important;
 }
 
-/* â”€â”€â”€ Hide ALL external link arrows â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+/* â”€â”€â”€ Hide button external arrows ONLY â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 
-.md-typeset a[href^="http"]:after,
-.md-typeset a[href^="https"]:after,
-a[href^="http"] .md-icon--link-external,
-a[href^="https"] .md-icon--link-external,
-.md-link--external .md-icon,
-.md-link--external:after,
-.twemoji {
+#md-nav-extra a[href^="http"]:after,
+#md-nav-extra a[href^="https"]:after,
+#md-nav-extra .md-icon--link-external,
+#md-nav-extra .md-link--external:after {
+  display: none !important;
+}
+
+/* â”€â”€â”€ Submit button external arrows ONLY â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+
+.md-content h1 + p a[href^="http"]:after,
+.md-content h1 + p a[href^="https"]:after,
+.md-content h1 + p a .md-icon--link-external {
   display: none !important;
 }
 
@@ -171,7 +176,7 @@ a[href^="https"] .md-icon--link-external,
   color: #000 !important;
 }
 
-/* Spacing */
+/* â”€â”€â”€ Spacing â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 
 .md-content h1 {
   margin-bottom: 1.25rem;
