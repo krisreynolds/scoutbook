@@ -74,7 +74,7 @@
 
 ## Kent
 
-## [Maidstone Gang Show](https://maidstonegangshow.co.uk)
+### [Maidstone Gang Show](https://maidstonegangshow.co.uk)
 
 ### [Thanet Gang Show](https://www.thanetscouts.org.uk/gangshow.html)
 
