@@ -32,6 +32,10 @@
   background: none !important;
 }
 
+.md-content h2 a {
+  color: inherit !important;
+}
+
 /* â”€â”€â”€ Light Mode H3 Cards â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 
 .md-content h3 {
@@ -76,11 +80,23 @@
   border-bottom-color: #ffffff !important;
 }
 
+[data-md-color-scheme="slate"] .md-content h2 a {
+  color: #ffffff !important;
+}
+
 [data-md-color-scheme="slate"] .md-content h3 {
   color: var(--scout-teal) !important;
   background: #2a2a3e !important;
   border-color: #4a4a6a !important;
   border-left-color: var(--scout-teal) !important;
+}
+
+[data-md-color-scheme="slate"] .md-content h3 a {
+  color: var(--scout-teal) !important;
+}
+
+[data-md-color-scheme="slate"] .md-content h3 a:hover {
+  color: #00d4b3 !important;
 }
 
 [data-md-color-scheme="slate"] .md-content h3 + p {
@@ -90,13 +106,15 @@
   border-left-color: var(--scout-teal) !important;
 }
 
-/* â”€â”€â”€ Hide external link arrows â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+/* â”€â”€â”€ Hide ALL external link arrows â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 
 .md-typeset a[href^="http"]:after,
 .md-typeset a[href^="https"]:after,
-a[href^="http"] .md-icon--link-external:after,
-a[href^="https"] .md-icon--link-external:after,
-.md-link--external:after {
+a[href^="http"] .md-icon--link-external,
+a[href^="https"] .md-icon--link-external,
+.md-link--external .md-icon,
+.md-link--external:after,
+.twemoji {
   display: none !important;
 }
 
@@ -153,7 +171,7 @@ a[href^="https"] .md-icon--link-external:after,
   color: #000 !important;
 }
 
-/* â”€â”€â”€ Spacing â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+/* Spacing */
 
 .md-content h1 {
   margin-bottom: 1.25rem;
