@@ -24,6 +24,8 @@
 
 ### [Exeter Gang Show](https://www.facebook.com/ExeterGangShow/)
 
+### [Plymouth Gang Show](https://www.facebook.com/PlymouthGangShow2022/)
+
 ## Dundee
 
 ### [Dundee Gang Show](https://gangshow.dundeescouts.org.uk)
@@ -104,6 +106,8 @@
 
 ### [Glendon Gang Show](https://glendongangshow.org.uk)
 
+### [Peterborough Gang Show](https://www.peterboroughscouts.org/gang-show)
+
 ### [Wellingborough Gang Show](https://wellingboroughgangshow.co.uk)
 
 ## Nottinghamshire
@@ -115,6 +119,8 @@
 ### [Taunton Gang Show](https://www.facebook.com/TauntonGS/?locale=en_GB)
 
 ## Staffordshire
+
+### [Burdi Boys Gang Show](https://pnscouts.org.uk/burdi/)
 
 ### [Castle Capers Gang Show](https://castlecapersgs.co.uk/) (Newcastle-Under-Lyme)
 
@@ -128,6 +134,10 @@
 
 ### [Ipswich Gang Show](https://ipswichgangshow.org.uk)
 
+## Surrey
+
+### [Souwest Gang Show](https://www.souwestgangshow.org.uk) (Sutton)
+
 ## Tyne and Wear
 
 ### [Newcastle Gang Show](https://www.newcastlegangshow.co.uk/)
@@ -135,6 +145,8 @@
 ## Warwickshire
 
 ### [Coventry Gang Show](https://coventryscouts.org.uk/gangshow)
+
+### [Handsworth Gang Show](https://handsworthgangshow.org.uk) (Erdington)
 
 ### [Nuneaton Gang Show](https://www.nuneatongangshow.org.uk)
 
