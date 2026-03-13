@@ -1,0 +1,165 @@
+:root {
+  --md-primary-fg-color: #7413DC;
+  --md-primary-fg-color--light: #9B4FE8;
+  --md-primary-fg-color--dark: #5A0FB8;
+  --md-accent-fg-color: #00A794;
+
+  --scout-purple: #7413DC;
+  --scout-purple-dark: #5A0FB8;
+  --scout-teal: #00A794;
+  --scout-black: #001323;
+}
+
+/* ─── Hide headlinks ───────────────────────────────────── */
+
+.md-content h2 .headerlink,
+.md-content h3 .headerlink {
+  display: none;
+}
+
+/* ─── H2 County Cards ──────────────────────────────────── */
+
+.md-content h2 {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--scout-purple);
+  margin-top: 2.5rem;
+  margin-bottom: 0;
+}
+
+.md-content h2 + .md-content__inner > div > *:first-child {
+  margin-top: 0;
+}
+
+.md-content h2 {
+  background: var(--md-code-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-left: 4px solid var(--scout-purple);
+  border-radius: 8px 8px 0 0;
+  padding: 0.75rem 1rem;
+}
+
+.md-content h2 + h3,
+.md-content h2 ~ h3 {
+  border-top: none;
+  border-radius: 0 8px 0 0;
+  margin-top: 0;
+}
+
+/* ─── H3 Items in Cards ────────────────────────────────── */
+
+.md-content h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.75rem 1rem 0.5rem 1rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-left: 4px solid var(--scout-purple);
+  border-radius: 0 8px 0 0;
+  color: var(--md-default-fg-color);
+  background: var(--md-code-bg-color);
+  margin: 0.75rem 0 0;
+}
+
+.md-content h3 a {
+  color: var(--scout-purple);
+  text-decoration: none;
+}
+
+.md-content h3 a:hover {
+  text-decoration: underline;
+  color: var(--scout-purple-dark);
+}
+
+.md-content h3 + p {
+  background: var(--md-code-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-top: none;
+  border-left: 4px solid var(--scout-purple);
+  border-radius: 0 0 8px 8px;
+  padding: 0.5rem 1rem 0.75rem 1rem;
+  margin: 0 0 0.75rem 0;
+  font-size: 0.85rem;
+  line-height: 1.65;
+}
+
+/* ─── Submit button (in content) ─────────────────────── */
+
+.md-content h1 + p a {
+  display: inline-block;
+  background: var(--scout-purple);
+  color: #fff !important;
+  padding: 0.35rem 0.85rem;
+  border-radius: 4px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+  transition: background 0.15s;
+}
+
+.md-content h1 + p a:hover {
+  background: var(--scout-purple-dark);
+}
+
+/* ─── Nav buttons ─────────────────────────────────────── */
+
+#md-nav-extra {
+  padding: 0.75rem 1rem;
+}
+
+#md-nav-extra a.md-nav-btn {
+  display: block !important;
+  text-align: center !important;
+  padding: 0.5rem 1rem !important;
+  border-radius: 4px !important;
+  text-decoration: none !important;
+  font-size: 0.78rem !important;
+  font-weight: 700 !important;
+  margin-bottom: 0 !important;
+  transition: filter 0.15s !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+#md-nav-extra a.md-nav-btn:hover {
+  filter: brightness(0.9);
+}
+
+#md-nav-extra a.md-nav-btn--green {
+  background: #84A40B !important;
+  color: #fff !important;
+}
+
+#md-nav-extra a.md-nav-btn--yellow {
+  background: #FFDD00 !important;
+  color: #000 !important;
+}
+
+/* ─── Dark mode ──────────────────────────────────────── */
+
+[data-md-color-scheme="slate"] .md-content h2,
+[data-md-color-scheme="slate"] .md-content h3,
+[data-md-color-scheme="slate"] .md-content h3 + p {
+  background: #f3eafd;
+  border-color: #c9a5f0;
+}
+
+[data-md-color-scheme="slate"] .md-content h2 {
+  color: #fff;
+}
+
+[data-md-color-scheme="slate"] .md-content h3 + p {
+  color: #1e1a2e;
+}
+
+/* ─── Spacing ─────────────────────────────────────────── */
+
+.md-content h1 {
+  margin-bottom: 1.25rem;
+}
+
+.md-content h2 + h3 {
+  margin-top: 0.5rem;
+}
