@@ -87,29 +87,35 @@
 
 /* ─── Nav buttons ─────────────────────────────────────── */
 
-.md-nav-btn {
-  display: block;
-  text-align: center;
-  padding: 0.5rem 1rem;
-  border-radius: 4px;
-  text-decoration: none !important;
-  font-size: 0.78rem;
-  font-weight: 700;
-  transition: filter 0.15s;
+#md-nav-extra {
+  padding: 0.75rem 1rem;
 }
 
-.md-nav-btn:hover {
+#md-nav-extra a.md-nav-btn {
+  display: block !important;
+  text-align: center !important;
+  padding: 0.5rem 1rem !important;
+  border-radius: 4px !important;
+  text-decoration: none !important;
+  font-size: 0.78rem !important;
+  font-weight: 700 !important;
+  margin-bottom: 0 !important;
+  transition: filter 0.15s !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+#md-nav-extra a.md-nav-btn:hover {
   filter: brightness(0.9);
-  text-decoration: none !important;
 }
 
-.md-nav-btn--green {
-  background: #84A40B;
+#md-nav-extra a.md-nav-btn--green {
+  background: #84A40B !important;
   color: #fff !important;
 }
 
-.md-nav-btn--yellow {
-  background: #FFDD00;
+#md-nav-extra a.md-nav-btn--yellow {
+  background: #FFDD00 !important;
   color: #000 !important;
 }
 
