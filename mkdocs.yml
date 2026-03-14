@@ -4,6 +4,8 @@ site_url: https://krisreynolds.github.io/scoutbook
 
 theme:
   name: material
+  logo: assets/logo.png
+  favicon: assets/logo.png   
   custom_dir: overrides
   font:
     text: Nunito Sans
