@@ -75,7 +75,7 @@ The rules of Scouting that we all need to follow. This is updated regularly and 
 
 ### [What to do in an emergency](https://www.scouts.org.uk/contact-us/#Emergency)
 
-### [Safety and Safeguarding][https://www.scouts.org.uk/volunteers/staying-safe-and-safeguarding/]
+### [Safety and Safeguarding](https://www.scouts.org.uk/volunteers/staying-safe-and-safeguarding/)
 
 ### [Equity, Diversity and Inclusion](https://www.scouts.org.uk/volunteers/equity-diversity-and-inclusion/)
 
