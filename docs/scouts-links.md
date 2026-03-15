@@ -1,5 +1,7 @@
 # Scout Association Links
 
+[➕ Suggest a link](https://form.jotform.com/260734372907057)
+
 ## Systems and tools
 
 ### [Scouts.org.uk](https://www.scouts.org.uk)
