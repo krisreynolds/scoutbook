@@ -1,5 +1,4 @@
-
-:root {
+ :root {
   --md-primary-fg-color: #7413DC;
   --md-primary-fg-color--light: #9B4FE8;
   --md-primary-fg-color--dark: #5A0FB8;
@@ -9,30 +8,17 @@
   --scout-purple-dark: #5A0FB8;
   --scout-teal: #00A794;
   --scout-black: #001323;
-  --scout-purple-light: #9B4FE8;
-  --scout-teal-light: #00D4B3;
-  --scout-green: #84A40B;
-  --scout-yellow: #FFDD00;
-  --scout-white: #FFFFFF;
-  /* Light mode */
-  --bg-card-light: #f8f9fa;
-  --border-light: #e9ecef;
-  --text-primary-light: #212529;
-  --text-secondary-light: #495057;
-  /* Dark mode */
-  --bg-card-dark: #2a2a3e;
-  --border-dark: #4a4a6a;
-  --text-primary-dark: #ffffff;
-  --text-secondary-dark: #d4d4e8;
 }
 
-/* Hide headlinks */
+/* â”€â”€â”€ Hide headlinks â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+
 .md-content h2 .headerlink,
 .md-content h3 .headerlink {
   display: none;
 }
 
-/* H2 County Labels */
+/* â”€â”€â”€ H2 County Labels â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+
 .md-content h2 {
   font-size: 0.7rem !important;
   font-weight: 600 !important;
@@ -45,103 +31,85 @@
   border-bottom: 2px solid var(--scout-purple) !important;
   background: none !important;
 }
+
 .md-content h2 a {
   color: inherit !important;
 }
 
-/* Light Mode H3 Cards - Full height containing H4 and content */
+/* â”€â”€â”€ Light Mode H3 Cards (no internal line) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+
 .md-content h3 {
   font-size: 1rem !important;
   font-weight: 600 !important;
-  padding: 0.75rem 1rem 0 !important;
-  border: 1px solid var(--border-light) !important;
+  padding: 0.75rem 1rem 0.5rem !important;
+  border: 1px solid #e9ecef !important;
   border-left: 4px solid var(--scout-purple) !important;
-  border-radius: 8px 8px 0 0 !important;
-  color: var(--text-primary-light) !important;
-  background: var(--bg-card-light) !important;
+  border-radius: 0 8px 0 0 !important;
+  color: #212529 !important;
+  background: #f8f9fa !important;
   margin: 0.75rem 0 0 !important;
   border-bottom: none !important;
 }
+
 .md-content h3 a {
-  color: var(--scout-purple) !important;
-  text-decoration: none !important;
-}
-.md-content h3 a:hover {
-  color: var(--scout-purple-dark) !important;
-  text-decoration: underline !important;
+  color: var(--scout-purple);
+  text-decoration: none;
 }
 
-/* Extend card to all siblings after h3 */
-.md-content h3 ~ * {
-  border: 1px solid var(--border-light) !important;
+.md-content h3 a:hover {
+  text-decoration: underline;
+  color: var(--scout-purple-dark);
+}
+
+.md-content h3 + p {
+  background: #f8f9fa !important;
+  border: 1px solid #e9ecef !important;
   border-top: none !important;
   border-left: 4px solid var(--scout-purple) !important;
-  background: var(--bg-card-light) !important;
-  margin: 0 !important;
-  padding: 0.5rem 1rem !important;
-}
-.md-content h3 + p {
   border-radius: 0 0 8px 8px !important;
+  padding: 0.5rem 1rem 0.75rem !important;
+  margin: 0 0 0.75rem 0 !important;
   font-size: 0.85rem !important;
   line-height: 1.65 !important;
-  color: var(--text-secondary-light) !important;
+  color: #495057 !important;
 }
 
-/* H4 inside H3 cards - sub-items */
-.md-content h3 h4 {
-  font-size: 0.95rem !important;
-  font-weight: 600 !important;
-  color: var(--scout-teal) !important;
-  margin: 0.75rem 0 0.5rem 0 !important;
-  padding: 0.25rem 0 0.25rem 1rem !important;
-  border-left: 3px solid var(--scout-teal) !important;
-  background: none !important;
-}
-.md-content h3 h4 a {
-  color: var(--scout-teal) !important;
-}
-.md-content h3 h4 a:hover {
-  color: var(--scout-teal-light) !important;
-}
+/* â”€â”€â”€ Dark Mode â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 
-/* Dark Mode */
 [data-md-color-scheme="slate"] .md-content h2 {
-  color: var(--scout-white) !important;
-  border-bottom-color: var(--scout-white) !important;
+  color: #ffffff !important;
+  border-bottom-color: #ffffff !important;
 }
+
 [data-md-color-scheme="slate"] .md-content h2 a {
-  color: var(--scout-white) !important;
+  color: #ffffff !important;
 }
+
 [data-md-color-scheme="slate"] .md-content h3 {
   color: var(--scout-teal) !important;
-  background: var(--bg-card-dark) !important;
-  border-color: var(--border-dark) !important;
+  background: #2a2a3e !important;
+  border-color: #4a4a6a !important;
   border-left-color: var(--scout-teal) !important;
+  border-bottom: none !important;
 }
+
 [data-md-color-scheme="slate"] .md-content h3 a {
   color: var(--scout-teal) !important;
 }
+
 [data-md-color-scheme="slate"] .md-content h3 a:hover {
-  color: var(--scout-teal-light) !important;
-}
-[data-md-color-scheme="slate"] .md-content h3 ~ * {
-  background: var(--bg-card-dark) !important;
-  border-color: var(--border-dark) !important;
-  border-left-color: var(--scout-teal) !important;
-  color: var(--text-secondary-dark) !important;
-}
-[data-md-color-scheme="slate"] .md-content h3 h4 {
-  color: var(--scout-purple) !important;
-  border-left-color: var(--scout-purple) !important;
-}
-[data-md-color-scheme="slate"] .md-content h3 h4 a {
-  color: var(--scout-purple) !important;
-}
-[data-md-color-scheme="slate"] .md-content h3 h4 a:hover {
-  color: var(--scout-purple-light) !important;
+  color: #00d4b3 !important;
 }
 
-/* Hide nav external arrows */
+[data-md-color-scheme="slate"] .md-content h3 + p {
+  color: #d4d4e8 !important;
+  background: #2a2a3e !important;
+  border-color: #4a4a6a !important;
+  border-left-color: var(--scout-teal) !important;
+}
+
+/* â”€â”€â”€ Hide button external arrows ONLY â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+
 #md-nav-extra a[href^="http"]:after,
 #md-nav-extra a[href^="https"]:after,
 #md-nav-extra .md-icon--link-external,
@@ -149,14 +117,16 @@
   display: none !important;
 }
 
-/* Submit button external arrows */
+/* â”€â”€â”€ Submit button external arrows ONLY â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+
 .md-content h1 + p a[href^="http"]:after,
 .md-content h1 + p a[href^="https"]:after,
 .md-content h1 + p a .md-icon--link-external {
   display: none !important;
 }
 
-/* Submit button */
+/* â”€â”€â”€ Submit button â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+
 .md-content h1 + p a {
   display: inline-block;
   background: var(--scout-purple);
@@ -169,14 +139,17 @@
   margin-bottom: 0.5rem;
   transition: background 0.15s;
 }
+
 .md-content h1 + p a:hover {
   background: var(--scout-purple-dark);
 }
 
-/* Nav buttons */
+/* â”€â”€â”€ Nav buttons â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+
 #md-nav-extra {
   padding: 0.75rem 1rem;
 }
+
 #md-nav-extra a.md-nav-btn {
   display: block !important;
   text-align: center !important;
@@ -190,22 +163,27 @@
   width: 100% !important;
   box-sizing: border-box !important;
 }
+
 #md-nav-extra a.md-nav-btn:hover {
   filter: brightness(0.9);
 }
+
 #md-nav-extra a.md-nav-btn--green {
-  background: var(--scout-green) !important;
+  background: #84A40B !important;
   color: #fff !important;
 }
+
 #md-nav-extra a.md-nav-btn--yellow {
-  background: var(--scout-yellow) !important;
+  background: #FFDD00 !important;
   color: #000 !important;
 }
 
 /* Spacing */
+
 .md-content h1 {
   margin-bottom: 1.25rem;
 }
+
 .md-content h2 + h3 {
   margin-top: 0.5rem;
 }
