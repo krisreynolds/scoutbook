@@ -18,4 +18,10 @@
 
 ### [UK Parliament](https://learning.parliament.uk/en/communities-and-youth-groups/)
 
+### Local Ideas
+You'll need to do some searching to get in touch with these organisations in your local area.
+
+#### Police Station
+Maybe a look around the station and cells or a trip around the control centre. Alternatively, see if they can come to you and tell you about their job and their equipment (and maybe let you turn the sirens on!)
+
 ## Other ideas
