@@ -10,14 +10,14 @@
   --scout-black: #001323;
 }
 
-/* â”€â”€â”€ Hide headlinks â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+/* Hide headlinks */
 
 .md-content h2 .headerlink,
 .md-content h3 .headerlink {
   display: none;
 }
 
-/* â”€â”€â”€ H2 County Labels â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+/* H2 County Labels */
 
 .md-content h2 {
   font-size: 0.7rem !important;
@@ -36,7 +36,7 @@
   color: inherit !important;
 }
 
-/* â”€â”€â”€ Light Mode H3 Cards (no internal line) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+/*  Light Mode H3 Cards (no internal line) */
 
 .md-content h3 {
   font-size: 1rem !important;
@@ -74,7 +74,7 @@
   color: #495057 !important;
 }
 
-/* â”€â”€â”€ Dark Mode â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+/* Dark Mode */
 
 [data-md-color-scheme="slate"] .md-content h2 {
   color: #ffffff !important;
@@ -108,7 +108,7 @@
   border-left-color: var(--scout-teal) !important;
 }
 
-/* â”€â”€â”€ Hide button external arrows ONLY â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+/* Hide button external arrows ONLY */
 
 #md-nav-extra a[href^="http"]:after,
 #md-nav-extra a[href^="https"]:after,
@@ -117,7 +117,7 @@
   display: none !important;
 }
 
-/* â”€â”€â”€ Submit button external arrows ONLY â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+/* Submit button external arrows ONLY */
 
 .md-content h1 + p a[href^="http"]:after,
 .md-content h1 + p a[href^="https"]:after,
@@ -125,7 +125,7 @@
   display: none !important;
 }
 
-/* â”€â”€â”€ Submit button â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+/* Submit button */
 
 .md-content h1 + p a {
   display: inline-block;
@@ -144,7 +144,7 @@
   background: var(--scout-purple-dark);
 }
 
-/* â”€â”€â”€ Nav buttons â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+/* Nav buttons */
 
 #md-nav-extra {
   padding: 0.75rem 1rem;
