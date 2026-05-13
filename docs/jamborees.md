@@ -6,7 +6,7 @@ These Jamborees advertise as being open to international groups and volunteers
 
 ## 2026
 
-### [Baltic Jamboree][https://bjam.eu]
+### [Baltic Jamboree](https://bjam.eu)
 Tagametsa, Estonia. 11th - 17th July 2026
 Takes place every 4 years.
 
@@ -49,7 +49,7 @@ Takes place every 4 years.
 ## 2027
 
 ### [World Scout Jamboree](https://www.jamboree2027.org/)
-Gdańsk, Poland. 30th July - 8th August 2027
+Gdańsk, Poland. 30th July - 8th August 2027.
 Takes place every 4 years (in different countries).
 
 ### [Australian Jamboree 2028](https://www.aj2028.com.au/)
