@@ -41,15 +41,16 @@ plugins:
 
 nav:
   - Home: index.md
-  - Scout Association Links: scouts-links.md
   - Campsites: campsites.md
-  - Programme Ideas: programme-ideas.md
   - External Activity Providers: external-providers.md
+  - Gang Shows: gangshows.md
+  - Jamborees: jamborees.md
+  - Programme Ideas: programme-ideas.md
+  - Scout Association Links: scouts-links.md
+  - Scout Discounts: discounts.md 
+  - Scouting Facebook Groups: facebookgroups.md  
   - Shops & Suppliers: shops-suppliers.md
   - Tools & Apps: tools.md
-  - Gang Shows: gangshows.md
-  - Scout Discounts: discounts.md
-  - Scouting Facebook Groups: facebookgroups.md
-
+  
 extra_css:
   - extra.css
