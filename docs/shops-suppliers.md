@@ -2,20 +2,6 @@
 
 [➕ Suggest a link](https://form.jotform.com/260734372907057)
 
-## Badges and Uniform
-
-### [Glasgow Scout Shop](https://www.glasgowscoutshop.com)
-Glasgow Scout Shop is a Scottish Scout retailer selling uniforms, badges, books, and accessories for all sections from Squirrels to Explorer Scouts, run by Clyde Scouts.
-
-### [Scout Store](https://shop.scouts.org.uk)
-The Scout Store is the official retail shop of the UK Scout Association, selling official uniformwear, badges, books, and equipment for all sections from Squirrels to Network. It's the go-to source for uniform items that must meet official standards — necker slides, activity badges, uniform tops, and leader resources.
-
-### [The Scout and Guide Shop](https://www.scout-and-guide-shop.co.uk/)
-The Scout and Guide Shop is a UK retailer — established in 1922 and a registered charity — selling uniforms, badges, and accessories for all Scout and Guide sections from Squirrels to Rangers. All proceeds go back into Scouting. Free UK delivery on orders over £45.
-
-### [Burnt Stuff](https://www.burntstuff.com/shop/scouting-stuff)
-Run by former Scout Leader Julian Ashcroft from his home on the Isle of Man, Burnt Stuff sells a range of Scouting items that are 3D Printed or engraved using lasers. From woggles to camp cutlery, Julian has a huge range of items available. If you can't see what you're looking for, he can often sort something out for you!
-
 ### [Carrie-Lou Print & Embroidery](https://www.carrielou.co.uk/)
 Carrie-Lou is a UK-based business that specialises in custom print and embroidery services for individuals, businesses, and organisations. The company offers a diverse range of personalised products, including custom-designed badges, branded clothing like hoodies and t-shirts, and various accessories such as bags and stickers. They are particularly well-known for supplying bespoke merchandise to youth groups, specifically catering to Scouts and Girlguiding units.
 
