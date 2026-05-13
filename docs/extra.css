@@ -1,0 +1,189 @@
+ :root {
+  --md-primary-fg-color: #7413DC;
+  --md-primary-fg-color--light: #9B4FE8;
+  --md-primary-fg-color--dark: #5A0FB8;
+  --md-accent-fg-color: #00A794;
+
+  --scout-purple: #7413DC;
+  --scout-purple-dark: #5A0FB8;
+  --scout-teal: #00A794;
+  --scout-black: #001323;
+}
+
+/* â”€â”€â”€ Hide headlinks â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+
+.md-content h2 .headerlink,
+.md-content h3 .headerlink {
+  display: none;
+}
+
+/* â”€â”€â”€ H2 County Labels â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+
+.md-content h2 {
+  font-size: 0.7rem !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.1em !important;
+  color: var(--scout-purple) !important;
+  margin-top: 2.5rem !important;
+  margin-bottom: 1rem !important;
+  padding: 0.5rem 0 !important;
+  border-bottom: 2px solid var(--scout-purple) !important;
+  background: none !important;
+}
+
+.md-content h2 a {
+  color: inherit !important;
+}
+
+/* â”€â”€â”€ Light Mode H3 Cards (no internal line) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+
+.md-content h3 {
+  font-size: 1rem !important;
+  font-weight: 600 !important;
+  padding: 0.75rem 1rem 0.5rem !important;
+  border: 1px solid #e9ecef !important;
+  border-left: 4px solid var(--scout-purple) !important;
+  border-radius: 0 8px 0 0 !important;
+  color: #212529 !important;
+  background: #f8f9fa !important;
+  margin: 0.75rem 0 0 !important;
+  border-bottom: none !important;
+}
+
+.md-content h3 a {
+  color: var(--scout-purple);
+  text-decoration: none;
+}
+
+.md-content h3 a:hover {
+  text-decoration: underline;
+  color: var(--scout-purple-dark);
+}
+
+.md-content h3 + p {
+  background: #f8f9fa !important;
+  border: 1px solid #e9ecef !important;
+  border-top: none !important;
+  border-left: 4px solid var(--scout-purple) !important;
+  border-radius: 0 0 8px 8px !important;
+  padding: 0.5rem 1rem 0.75rem !important;
+  margin: 0 0 0.75rem 0 !important;
+  font-size: 0.85rem !important;
+  line-height: 1.65 !important;
+  color: #495057 !important;
+}
+
+/* â”€â”€â”€ Dark Mode â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+
+[data-md-color-scheme="slate"] .md-content h2 {
+  color: #ffffff !important;
+  border-bottom-color: #ffffff !important;
+}
+
+[data-md-color-scheme="slate"] .md-content h2 a {
+  color: #ffffff !important;
+}
+
+[data-md-color-scheme="slate"] .md-content h3 {
+  color: var(--scout-teal) !important;
+  background: #2a2a3e !important;
+  border-color: #4a4a6a !important;
+  border-left-color: var(--scout-teal) !important;
+  border-bottom: none !important;
+}
+
+[data-md-color-scheme="slate"] .md-content h3 a {
+  color: var(--scout-teal) !important;
+}
+
+[data-md-color-scheme="slate"] .md-content h3 a:hover {
+  color: #00d4b3 !important;
+}
+
+[data-md-color-scheme="slate"] .md-content h3 + p {
+  color: #d4d4e8 !important;
+  background: #2a2a3e !important;
+  border-color: #4a4a6a !important;
+  border-left-color: var(--scout-teal) !important;
+}
+
+/* â”€â”€â”€ Hide button external arrows ONLY â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+
+#md-nav-extra a[href^="http"]:after,
+#md-nav-extra a[href^="https"]:after,
+#md-nav-extra .md-icon--link-external,
+#md-nav-extra .md-link--external:after {
+  display: none !important;
+}
+
+/* â”€â”€â”€ Submit button external arrows ONLY â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+
+.md-content h1 + p a[href^="http"]:after,
+.md-content h1 + p a[href^="https"]:after,
+.md-content h1 + p a .md-icon--link-external {
+  display: none !important;
+}
+
+/* â”€â”€â”€ Submit button â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+
+.md-content h1 + p a {
+  display: inline-block;
+  background: var(--scout-purple);
+  color: #fff !important;
+  padding: 0.35rem 0.85rem;
+  border-radius: 4px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+  transition: background 0.15s;
+}
+
+.md-content h1 + p a:hover {
+  background: var(--scout-purple-dark);
+}
+
+/* â”€â”€â”€ Nav buttons â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+
+#md-nav-extra {
+  padding: 0.75rem 1rem;
+}
+
+#md-nav-extra a.md-nav-btn {
+  display: block !important;
+  text-align: center !important;
+  padding: 0.5rem 1rem !important;
+  border-radius: 4px !important;
+  text-decoration: none !important;
+  font-size: 0.78rem !important;
+  font-weight: 700 !important;
+  margin-bottom: 0 !important;
+  transition: filter 0.15s !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+#md-nav-extra a.md-nav-btn:hover {
+  filter: brightness(0.9);
+}
+
+#md-nav-extra a.md-nav-btn--green {
+  background: #84A40B !important;
+  color: #fff !important;
+}
+
+#md-nav-extra a.md-nav-btn--yellow {
+  background: #FFDD00 !important;
+  color: #000 !important;
+}
+
+/* Spacing */
+
+.md-content h1 {
+  margin-bottom: 1.25rem;
+}
+
+.md-content h2 + h3 {
+  margin-top: 0.5rem;
+}

@@ -4,6 +4,8 @@ site_url: https://krisreynolds.github.io/scoutbook
 
 theme:
   name: material
+  logo: assets/logo.png
+  favicon: assets/logo.png   
   custom_dir: overrides
   font:
     text: Nunito Sans
@@ -45,6 +47,7 @@ nav:
   - External Activity Providers: external-providers.md
   - Shops & Suppliers: shops-suppliers.md
   - Tools & Apps: tools.md
+  - Gang Shows: gangshows.md
   - Useful Links: links.md
   - Scout Discounts: discounts.md
 

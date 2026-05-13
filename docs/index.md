@@ -3,7 +3,7 @@ Scoutbook
 
 A curated list of tools, programme ideas, campsites, and links for Scouts.
 
-[➕ Submit an entry](https://github.com/krisreynolds/scoutbook/issues/new/choose)
+[➕ Suggest a link](https://form.jotform.com/260734372907057)
 
 ## About
 
