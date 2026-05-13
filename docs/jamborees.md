@@ -26,7 +26,7 @@ Takes place every 4 years.
 West Virgina, USA. 22nd - 31st July 2026
 Takes place every 4 years.
 
-### [WINGS International Jamboree](https://www.wings2026.org.uk/)
+### [WINGS International Jamboree](https://wingsjamboree.org.uk/)
 Windsor, UK. 25th July - 1st August 2026.
 Takes place every 5-7 years.
 
