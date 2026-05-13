@@ -54,3 +54,15 @@ nav:
   
 extra_css:
   - extra.css
+
+extra:
+  analytics:
+    provider: google
+    property: G-JWNP8ZVZ0P
+  consent:
+      title: Cookie consent
+      description: >-
+        We use cookies (unfortunately not the kind with chocolate chips!) to anonymously track the usage of this website.
+      actions:
+        - accept
+        - manage
