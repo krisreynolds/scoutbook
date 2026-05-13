@@ -1,6 +1,6 @@
 site_name: Scoutbook
-site_description: A curated list of tools, programme ideas, and campsites for Scouts
-site_url: https://krisreynolds.github.io/scoutbook
+site_description: A curated list of tools, programme ideas, campsites and more  for Scout volunteers.
+site_url: https://www.scoutbook.org.uk
 
 theme:
   name: material
