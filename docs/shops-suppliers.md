@@ -2,14 +2,14 @@
 
 [➕ Suggest a link](https://form.jotform.com/260734372907057)
 
+### [Burnt Stuff](https://www.burntstuff.com/shop)
+Run by a former Scouter from his home on the Isle of Man, Burnt Stuff offers a range of personalisable 3D printed and laser engraved Scouting items including woggles, clocks and even camping cutlery!
+
 ### [Carrie-Lou Print & Embroidery](https://www.carrielou.co.uk/)
 Carrie-Lou is a UK-based business that specialises in custom print and embroidery services for individuals, businesses, and organisations. The company offers a diverse range of personalised products, including custom-designed badges, branded clothing like hoodies and t-shirts, and various accessories such as bags and stickers. They are particularly well-known for supplying bespoke merchandise to youth groups, specifically catering to Scouts and Girlguiding units.
 
 ### [Glasgow Scout Shop](https://www.glasgowscoutshop.com/)
 Glasgo Scout Shop can provide for all your Scouting needs with uniforms, badges, books and accessories for games, activities and camping. As well as official uniform, they also stock a number of items of casual clothing.
-
-### [Carrie Lou Print and Embroidery](https://www.carrielou.co.uk)
-Carrie Lou Print & Embroidery is a small London-based family business offering custom printed and embroidered badges, personalised clothing, bags, and gifts. Popular with Scout and Guide groups across the UK, with no minimum order quantity and a current lead time of 3–6 weeks.
 
 ### [One Stop Scouting](https://www.onestopscouting.co.uk/)
 One Stop Scouting is an online retailer specialising in clothing, equipment, and accessories for Scouts and Guides across the UK. Its product range covers everything from uniforms, scarves, and badges to outdoor kit, making it a convenient one-stop shop for leaders and young people alike. They're the main supplier to many of the UK Jamborees.
