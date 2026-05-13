@@ -36,7 +36,7 @@
   color: inherit !important;
 }
 
-/* Light Mode H3 Cards (no internal line) */
+/*  Light Mode H3 Cards (no internal line) */
 
 .md-content h3 {
   font-size: 1rem !important;
@@ -144,10 +144,10 @@
   background: var(--scout-purple-dark);
 }
 
-/* Nav buttons Shared Styles */
+/* Nav buttons */
 
 #md-nav-extra {
-  display: none; /* Hidden by default to prevent flashing on mobile main content */
+  padding: 0.75rem 1rem;
 }
 
 #md-nav-extra a.md-nav-btn {
@@ -176,37 +176,6 @@
 #md-nav-extra a.md-nav-btn--yellow {
   background: #FFDD00 !important;
   color: #000 !important;
-}
-
-/* Responsive Logic for Nav Buttons */
-
-/* 1. Desktop: Show at the bottom of the sidebar */
-@media screen and (min-width: 76.25em) {
-  .md-sidebar--primary .md-sidebar__inner {
-    display: flex;
-    flex-direction: column;
-  }
-
-  #md-nav-extra {
-    display: flex !important;
-    flex-direction: column;
-    gap: 0.5rem;
-    padding: 0.75rem 1rem;
-    margin-top: auto; /* Pushes buttons to bottom */
-  }
-}
-
-/* 2. Mobile: Show ONLY inside the hamburger drawer */
-@media screen and (max-width: 76.24em) {
-  .md-nav__list #md-nav-extra {
-    display: flex !important;
-    flex-direction: column;
-    gap: 0.5rem;
-    padding: 1rem;
-    border-top: 1px solid rgba(0,0,0,0.1);
-    margin-top: 10px;
-    background: transparent;
-  }
 }
 
 /* Spacing */
