@@ -36,7 +36,7 @@
   color: inherit !important;
 }
 
-/*  Light Mode H3 Cards (no internal line) */
+/* Light Mode H3 Cards (no internal line) */
 
 .md-content h3 {
   font-size: 1rem !important;
@@ -144,10 +144,10 @@
   background: var(--scout-purple-dark);
 }
 
-/* Nav buttons */
+/* Nav buttons Shared Styles */
 
 #md-nav-extra {
-  padding: 0.75rem 1rem;
+  display: none; /* Hidden by default to prevent flashing on mobile main content */
 }
 
 #md-nav-extra a.md-nav-btn {
@@ -178,6 +178,37 @@
   color: #000 !important;
 }
 
+/* Responsive Logic for Nav Buttons */
+
+/* 1. Desktop: Show at the bottom of the sidebar */
+@media screen and (min-width: 76.25em) {
+  .md-sidebar--primary .md-sidebar__inner {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #md-nav-extra {
+    display: flex !important;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0.75rem 1rem;
+    margin-top: auto; /* Pushes buttons to bottom */
+  }
+}
+
+/* 2. Mobile: Show ONLY inside the hamburger drawer */
+@media screen and (max-width: 76.24em) {
+  .md-nav__list #md-nav-extra {
+    display: flex !important;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1rem;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    margin-top: 10px;
+    background: transparent;
+  }
+}
+
 /* Spacing */
 
 .md-content h1 {
@@ -186,32 +217,4 @@
 
 .md-content h2 + h3 {
   margin-top: 0.5rem;
-}
-
-/* Layout for the extra nav container */
-#md-nav-extra {
-  display: flex !important;
-  flex-direction: column;
-  gap: 0.5rem;
-  padding: 0.75rem 1rem;
-}
-
-/* DESKTOP: Push buttons to the bottom of the left sidebar */
-@media screen and (min-width: 76.25em) {
-  .md-sidebar--primary .md-sidebar__inner {
-    display: flex;
-    flex-direction: column;
-  }
-  #md-nav-extra {
-    margin-top: auto; 
-  }
-}
-
-/* MOBILE: Add a separator so they look like menu items in the drawer */
-@media screen and (max-width: 76.24em) {
-  #md-nav-extra {
-    border-top: 1px solid var(--md-default-fg-color--lightest);
-    margin-top: 10px;
-    background: transparent;
-  }
 }
