@@ -1,4 +1,4 @@
- :root {
+:root {
   --md-primary-fg-color: #7413DC;
   --md-primary-fg-color--light: #9B4FE8;
   --md-primary-fg-color--dark: #5A0FB8;
@@ -11,14 +11,12 @@
 }
 
 /* Hide headlinks */
-
 .md-content h2 .headerlink,
 .md-content h3 .headerlink {
   display: none;
 }
 
 /* H2 County Labels */
-
 .md-content h2 {
   font-size: 0.7rem !important;
   font-weight: 600 !important;
@@ -36,8 +34,7 @@
   color: inherit !important;
 }
 
-/*  Light Mode H3 Cards (no internal line) */
-
+/* Light Mode H3 Cards */
 .md-content h3 {
   font-size: 1rem !important;
   font-weight: 600 !important;
@@ -75,7 +72,6 @@
 }
 
 /* Dark Mode */
-
 [data-md-color-scheme="slate"] .md-content h2 {
   color: #ffffff !important;
   border-bottom-color: #ffffff !important;
@@ -108,24 +104,59 @@
   border-left-color: var(--scout-teal) !important;
 }
 
-/* Hide button external arrows ONLY */
+/* --- Navigation Button Container --- */
 
-#md-nav-extra a[href^="http"]:after,
-#md-nav-extra a[href^="https"]:after,
-#md-nav-extra .md-icon--link-external,
-#md-nav-extra .md-link--external:after {
+/* Use attribute selector to target all clones of the ID */
+[id="md-nav-extra"] {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+}
+
+/* Hide external link arrows for nav buttons specifically */
+[id="md-nav-extra"] a:after,
+[id="md-nav-extra"] .md-icon--link-external {
   display: none !important;
 }
 
-/* Submit button external arrows ONLY */
-
-.md-content h1 + p a[href^="http"]:after,
-.md-content h1 + p a[href^="https"]:after,
-.md-content h1 + p a .md-icon--link-external {
-  display: none !important;
+/* Target buttons inside the mobile drawer to ensure they look right */
+.md-nav__item [id="md-nav-extra"] {
+  padding-bottom: 1.5rem; /* Space at the bottom of the scrollable area */
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+  margin-top: 0.5rem;
+  padding-top: 1rem;
 }
 
-/* Submit button */
+/* Nav Button Styling */
+[id="md-nav-extra"] a.md-nav-btn {
+  display: block !important;
+  text-align: center !important;
+  padding: 0.5rem 1rem !important;
+  border-radius: 4px !important;
+  text-decoration: none !important;
+  font-size: 0.78rem !important;
+  font-weight: 700 !important;
+  transition: filter 0.15s !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+[id="md-nav-extra"] a.md-nav-btn:hover {
+  filter: brightness(0.9);
+}
+
+[id="md-nav-extra"] a.md-nav-btn--green {
+  background: #84A40B !important;
+  color: #fff !important;
+}
+
+[id="md-nav-extra"] a.md-nav-btn--yellow {
+  background: #FFDD00 !important;
+  color: #000 !important;
+}
+
+/* --- Submit Button (In Page Content) --- */
 
 .md-content h1 + p a {
   display: inline-block;
@@ -144,42 +175,12 @@
   background: var(--scout-purple-dark);
 }
 
-/* Nav buttons */
-
-#md-nav-extra {
-  padding: 0.75rem 1rem;
+/* Hide arrows on content submit button */
+.md-content h1 + p a:after {
+  display: none !important;
 }
 
-#md-nav-extra a.md-nav-btn {
-  display: block !important;
-  text-align: center !important;
-  padding: 0.5rem 1rem !important;
-  border-radius: 4px !important;
-  text-decoration: none !important;
-  font-size: 0.78rem !important;
-  font-weight: 700 !important;
-  margin-bottom: 0 !important;
-  transition: filter 0.15s !important;
-  width: 100% !important;
-  box-sizing: border-box !important;
-}
-
-#md-nav-extra a.md-nav-btn:hover {
-  filter: brightness(0.9);
-}
-
-#md-nav-extra a.md-nav-btn--green {
-  background: #84A40B !important;
-  color: #fff !important;
-}
-
-#md-nav-extra a.md-nav-btn--yellow {
-  background: #FFDD00 !important;
-  color: #000 !important;
-}
-
-/* Spacing */
-
+/* General Spacing */
 .md-content h1 {
   margin-bottom: 1.25rem;
 }
@@ -187,4 +188,3 @@
 .md-content h2 + h3 {
   margin-top: 0.5rem;
 }
-

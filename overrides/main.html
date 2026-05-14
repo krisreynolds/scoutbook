@@ -10,26 +10,44 @@
       🍺 Buy me a beer
     </a>
   </div>
+
   <script>
     document.addEventListener("DOMContentLoaded", function() {
       var extra = document.getElementById("md-nav-extra");
-      var sidebar = document.querySelector(".md-sidebar--primary .md-sidebar__inner");
-      if (extra && sidebar) {
-        extra.style.display = "flex";
-        sidebar.appendChild(extra);
+      
+      // 1. Target the Desktop Sidebar
+      var desktopSidebar = document.querySelector(".md-sidebar--primary .md-sidebar__inner");
+      // 2. Target the Mobile Drawer (Hamburger Menu)
+      var mobileDrawer = document.querySelector(".md-nav--primary > .md-nav__list");
+
+      if (extra) {
+        // Clone the buttons so they can exist in two places at once
+        if (desktopSidebar) {
+          var desktopClone = extra.cloneNode(true);
+          desktopClone.style.display = "flex";
+          desktopSidebar.appendChild(desktopClone);
+        }
+
+        if (mobileDrawer) {
+          var mobileClone = extra.cloneNode(true);
+          mobileClone.style.display = "flex";
+          // We wrap it in a list item to maintain Material's structural integrity
+          var li = document.createElement("li");
+          li.classList.add("md-nav__item");
+          li.style.marginTop = "1rem";
+          li.appendChild(mobileClone);
+          mobileDrawer.appendChild(li);
+        }
+        
+        // Remove the original hidden template
+        extra.remove();
       }
     });
   </script>
-
-  <script>
-  kofiWidgetOverlay.draw('krisreynoldsdev', {
-    'type': 'floating-chat',
-    'floating-chat.donateButton.text': 'Buy me a beer!',
-    'floating-chat.donateButton.background-color': '#00b9fe',
-    'floating-chat.donateButton.text-color': '#fff'
-  });
-</script>
   
+  <script>
+    kofiWidgetOverlay.draw('krisreynoldsdev', { ... });
+  </script>
 {% endblock %}
 
 {% block extrahead %}
