@@ -191,6 +191,11 @@ The campsite is ideally situated for most Peak District activities including cli
 ### [Kibblestone Campsite & Activity Centre](https://www.kibblestone.org)
 Kibblestone is a massive 98-acre international scout campsite in Staffordshire featuring 180 tree species, extensive gladed camping, and a vast range of adventurous activities including a high ropes course and climbing.
 
+## Stirling
+
+### [Lochearnhead Scout Station](https://www.lochearnhead.org.uk)
+Lochearnhead Scout Station is a unique adventurous activity base set in a converted Victorian railway station that offers mountain and water-based activities for Scouts in the Scottish Highlands.
+
 ## Surrey
 
 ### [Birchmere](http://www.birchmerescoutcampsite.org/)
