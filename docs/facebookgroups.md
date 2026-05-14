@@ -34,6 +34,9 @@ The Facebook forum for Scout Show production teams to discuss, hang out, share i
 ### [Managers and Trustees in Scouting - The Scouts UK](https://www.facebook.com/groups/475214515844527)
 An online space for managers in Scouting to share ideas, best practice and support each other. It is also designed to raise awareness of the leadership and management work as a whole and gives HQ the facility to discuss ideas and issues connected to the leadership and management agenda. It is open to those with a Manager or Trustee role in UK Scouting. Other members of UK Scouting may be permitted to join on a case-by-case basis.
 
+### [Scoutadelic](https://www.facebook.com/scoutadelic/)
+An online community for Scoutadelic, an unofficial online Scouting YouTube show like no other. Helped and Contributed by Scouts around the world
+
 ### [Scout and Guide Programme Ideas](https://www.facebook.com/groups/403096317215277/)
 A group dedicated to sharing programme ideas - share your ideas or ask for help with a topic.
 
