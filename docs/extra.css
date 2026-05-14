@@ -188,3 +188,19 @@
 .md-content h2 + h3 {
   margin-top: 0.5rem;
 }
+
+/* --- Desktop/Mobile Toggle --- */
+
+/* Hide the mobile-specific clone on desktop screens */
+@media screen and (min-width: 76.25em) {
+  .nav-extra--mobile {
+    display: none !important;
+  }
+}
+
+/* Hide the desktop-specific clone on mobile screens */
+@media screen and (max-width: 76.24em) {
+  .nav-extra--desktop {
+    display: none !important;
+  }
+}

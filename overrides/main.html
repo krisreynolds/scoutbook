@@ -11,39 +11,37 @@
     </a>
   </div>
 
-  <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      var extra = document.getElementById("md-nav-extra");
-      
-      // 1. Target the Desktop Sidebar
-      var desktopSidebar = document.querySelector(".md-sidebar--primary .md-sidebar__inner");
-      // 2. Target the Mobile Drawer (Hamburger Menu)
-      var mobileDrawer = document.querySelector(".md-nav--primary > .md-nav__list");
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var extra = document.getElementById("md-nav-extra");
+    if (!extra) return;
 
-      if (extra) {
-        // Clone the buttons so they can exist in two places at once
-        if (desktopSidebar) {
-          var desktopClone = extra.cloneNode(true);
-          desktopClone.style.display = "flex";
-          desktopSidebar.appendChild(desktopClone);
-        }
+    // Target Desktop Sidebar
+    var desktopSidebar = document.querySelector(".md-sidebar--primary .md-sidebar__inner");
+    // Target Mobile Drawer
+    var mobileDrawer = document.querySelector(".md-nav--primary > .md-nav__list");
 
-        if (mobileDrawer) {
-          var mobileClone = extra.cloneNode(true);
-          mobileClone.style.display = "flex";
-          // We wrap it in a list item to maintain Material's structural integrity
-          var li = document.createElement("li");
-          li.classList.add("md-nav__item");
-          li.style.marginTop = "1rem";
-          li.appendChild(mobileClone);
-          mobileDrawer.appendChild(li);
-        }
-        
-        // Remove the original hidden template
-        extra.remove();
-      }
-    });
-  </script>
+    if (desktopSidebar) {
+      var desktopClone = extra.cloneNode(true);
+      desktopClone.style.display = "flex";
+      desktopClone.classList.add("nav-extra--desktop"); // Add class for CSS control
+      desktopSidebar.appendChild(desktopClone);
+    }
+
+    if (mobileDrawer) {
+      var mobileClone = extra.cloneNode(true);
+      mobileClone.style.display = "flex";
+      mobileClone.classList.add("nav-extra--mobile"); // Add class for CSS control
+      var li = document.createElement("li");
+      li.classList.add("md-nav__item");
+      li.appendChild(mobileClone);
+      mobileDrawer.appendChild(li);
+    }
+
+    // Completely remove the original template so it doesn't show up
+    extra.remove();
+  });
+</script>
   
   <script>
     kofiWidgetOverlay.draw('krisreynoldsdev', { ... });
