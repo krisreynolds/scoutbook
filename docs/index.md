@@ -1,5 +1,6 @@
 ---
 icon: lucide/house
+name: "Home"
 hide:
     - toc
 description: "A clean, ad-free directory of curated links and resources for UK Scout Association volunteers and youth leaders. Find the good stuff fast!"
