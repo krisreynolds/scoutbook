@@ -4,26 +4,26 @@
 
 :root {
   /* Core Brand Identity Colors */
-  --scout-purple:        #7413dc; /* Primary brand anchor */
-  --scout-teal:          #088486; /* Optimized high-contrast accent text variant */
+  --scout-purple:        #7413dc;
+  --scout-teal:          #088486;
   
   /* Section-Specific & Accent Palette */
-  --scout-red:           #ed3f23; /* Squirrels Section */
-  --scout-pink:          #ffb4e5; /* Supporting Accent */
-  --scout-green:         #25b755; /* General Branding */
-  --scout-navy:          #003982; /* Explorers Section */
-  --scout-blue:          #006ddf; /* Beavers Section */
-  --scout-yellow:        #ffe627; /* Supporting Accent */
-  --scout-orange:        #ff912a; /* Youthful/Optimistic Accent */
-  --scout-forest-green:  #205b41; /* Badge Component Accent */
+  --scout-red:           #ed3f23;
+  --scout-pink:          #ffb4e5;
+  --scout-green:         #25b755;
+  --scout-navy:          #003982;
+  --scout-blue:          #006ddf;
+  --scout-yellow:        #ffe627;
+  --scout-orange:        #ff912a;
+  --scout-forest-green:  #205b41;
 
   /* Uniform/Media Specific Greens */
-  --cub-section-green:   #23a950; /* Cubs Layouts */
-  --scout-section-green: #004851; /* Scouts Layouts */
+  --cub-section-green:   #23a950;
+  --scout-section-green: #004851;
 
   /* Grayscale Spectrum */
   --scout-white:         #ffffff;
-  --scout-black:         #000000; /* Network Section & Base Typography */
+  --scout-black:         #000000;
   --scout-grey-80:       #2f2f2f;
   --scout-grey-60:       #636363;
   --scout-grey-40:       #979797;
@@ -53,7 +53,6 @@
    2. MAIN CONTENT STYLING & TEXT LAYOUTS
    ========================================================================== */
 
-/* Enforce global brand typography stack across headers, menus, and actions */
 .md-content h1,
 .md-content h2,
 .md-content h3,
@@ -62,13 +61,11 @@
   font-family: var(--md-text-font) !important;
 }
 
-/* Hide permanent anchor headerlinks next to titles */
 .md-content h2 .headerlink,
 .md-content h3 .headerlink {
   display: none;
 }
 
-/* Styled Section Sub-Headers (County Labels) */
 .md-content h2 {
   font-size: 0.7rem !important;
   font-weight: 800 !important;
@@ -81,9 +78,8 @@
   border-bottom: 2px solid var(--scout-purple) !important;
 }
 
-/* Main Interactive Card Component Headings */
 .md-content h3 {
-  font-size: 1.00rem !important;
+  font-size: 1rem !important;
   font-weight: 700 !important;
   padding: 0.85rem 1rem 0.6rem !important;
   border: 1px solid #e9ecef !important;
@@ -106,7 +102,6 @@
   text-decoration: underline !important;
 }
 
-/* Main Interactive Card Component Descriptions (Paragraph immediately following H3) */
 .md-content h3 + p {
   background: #f8f9fa !important;
   border: 1px solid #e9ecef !important;
@@ -120,34 +115,20 @@
   color: #495057 !important;
 }
 
-/* If a resource note follows the description, let the note complete the card */
-.md-content h3 + p:has(+ .resource-note) {
-  border-radius: 0 !important;
-  margin-bottom: 0 !important;
-  padding-bottom: 0.45rem !important;
-}
-
-/* Resource note continuation block */
-.md-content h3 + p + .resource-note {
-  background: #f8f9fa !important;
-  border: 1px solid #e9ecef !important;
-  border-top: 1px solid rgba(0, 0, 0, 0.08) !important;
-  border-left: 5px solid var(--scout-purple) !important;
-  border-radius: 0 0 8px 8px !important;
-  padding: 0.55rem 1rem 0.85rem !important;
-  margin: 0 0 1rem 0 !important;
+/* Resource note shown beneath card content */
+.md-content .resource-note {
+  margin: -0.25rem 0 1.2rem 0 !important;
   font-size: 0.82rem !important;
   line-height: 1.6 !important;
   color: #495057 !important;
 }
 
-/* Resource note links */
-.md-content h3 + p + .resource-note a {
+.md-content .resource-note a {
   color: var(--scout-purple) !important;
   text-decoration: underline !important;
 }
 
-.md-content h3 + p + .resource-note a:hover {
+.md-content .resource-note a:hover {
   color: var(--scout-green) !important;
 }
 
@@ -184,19 +165,15 @@
   border-left-color: var(--scout-teal) !important;
 }
 
-[data-md-color-scheme="slate"] .md-content h3 + p + .resource-note {
+[data-md-color-scheme="slate"] .md-content .resource-note {
   color: #d4d4e8 !important;
-  background: #2a2a3e !important;
-  border-color: #4a4a6a !important;
-  border-top-color: rgba(255, 255, 255, 0.08) !important;
-  border-left-color: var(--scout-teal) !important;
 }
 
-[data-md-color-scheme="slate"] .md-content h3 + p + .resource-note a {
+[data-md-color-scheme="slate"] .md-content .resource-note a {
   color: var(--scout-green) !important;
 }
 
-[data-md-color-scheme="slate"] .md-content h3 + p + .resource-note a:hover {
+[data-md-color-scheme="slate"] .md-content .resource-note a:hover {
   color: var(--scout-purple) !important;
 }
 
@@ -204,17 +181,15 @@
    4. NAVIGATION STATES (ACTIVE PAGES)
    ========================================================================== */
 
-/* Light Mode: Highlights currently active file and active ancestor groups */
 [data-md-color-scheme="default"] .md-nav__link--active,
 [data-md-color-scheme="default"] .md-nav__item--active > .md-nav__link {
-  color: var(--scout-teal) !important; 
+  color: var(--scout-teal) !important;
   font-weight: 700 !important;
 }
 
-/* Dark Mode: Highlights currently active file and active ancestor groups */
 [data-md-color-scheme="slate"] .md-nav__link--active,
 [data-md-color-scheme="slate"] .md-nav__item--active > .md-nav__link {
-  color: var(--scout-green) !important; 
+  color: var(--scout-green) !important;
   font-weight: 700 !important;
 }
 
@@ -222,18 +197,15 @@
    5. EXTENDED SIDEBAR EMBEDDED BUTTONS (FLEXBOX COUPLING)
    ========================================================================== */
 
-/* Configure primary desktop menu wrapper into a vertical flex stack */
 .md-sidebar--primary .md-sidebar__scrollwrap {
   display: flex !important;
   flex-direction: column !important;
 }
 
-/* Forces structural page nav links to consume free space, pushing footers down */
 .md-sidebar--primary .md-sidebar__scrollwrap > .md-nav {
   flex-grow: 1 !important;
 }
 
-/* Configure mobile side drawer container into an isolated vertical flex column */
 .md-nav--drawer {
   display: flex !important;
   flex-direction: column !important;
@@ -244,23 +216,20 @@
   flex-grow: 1 !important;
 }
 
-/* Custom Navigation Button Container Layout */
 [id="md-nav-extra"] {
   display: flex !important;
   flex-direction: column !important;
-  gap: 12px !important;             
-  padding: 1.2rem 0.8rem !important; 
+  gap: 12px !important;
+  padding: 1.2rem 0.8rem !important;
   background-color: var(--md-default-bg-color) !important;
-  border-top: 1px solid rgba(0, 0, 0, 0.07) !important;   
-  margin-top: auto !important; /* Critical layout push to pin item cleanly to the absolute base */
+  border-top: 1px solid rgba(0, 0, 0, 0.07) !important;
+  margin-top: auto !important;
 }
 
-/* Contrast optimization for dark theme separating rule line */
 [data-md-color-scheme="slate"] [id="md-nav-extra"] {
   border-top-color: rgba(255, 255, 255, 0.1) !important;
 }
 
-/* Core Functional Button Layout rules */
 [id="md-nav-extra"] a.md-nav-btn {
   display: flex !important;
   align-items: center !important;
@@ -281,12 +250,17 @@
   opacity: 0.9;
 }
 
-/* Layout alignment controls for SVG element embeds within the link blocks */
 [id="md-nav-extra"] a.md-nav-btn svg {
   margin-right: 8px !important;
-  flex-shrink: 0 !important; /* Prevents structural collapse of layout on narrow viewports */
+  flex-shrink: 0 !important;
 }
 
-/* Independent Background Variant Overrides */
-[id="md-nav-extra"] a.md-nav-btn--suggest { background: var(--scout-green) !important; color: #ffffff !important; }
-[id="md-nav-extra"] a.md-nav-btn--beer { background: var(--scout-yellow) !important; color: #000000 !important; }
+[id="md-nav-extra"] a.md-nav-btn--suggest {
+  background: var(--scout-green) !important;
+  color: #ffffff !important;
+}
+
+[id="md-nav-extra"] a.md-nav-btn--beer {
+  background: var(--scout-yellow) !important;
+  color: #000000 !important;
+}
