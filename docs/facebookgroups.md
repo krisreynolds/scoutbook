@@ -1,3 +1,7 @@
+---
+icon: fontawesome/brands/facebook
+---
+
 # Scouting Facebook Groups
 
 ## Advice and Ideas
