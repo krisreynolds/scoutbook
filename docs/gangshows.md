@@ -23,7 +23,7 @@ icon: scoutbook/gangshow
 
 ## Derbyshire
 
-### [Derby East Gang Show](http://www.flyinghigh.org.uk/index.php)
+### [Flying High Gang Show](https://www.facebook.com/FlyingHighGangShow/?locale=en_GB) (Derby East)
 
 ## Devon
 
