@@ -8,7 +8,7 @@ icon: lucide/ticket-percent
 
 !!! info ""
 
-    Many "outdoors" shops will offer a discount to Scouts so even if the company isn't listed below, it's worth asking! Many will also be able to offer discounts for bulk purchases so it's worth asking to speak with the "Group Sales" or "B2B" teams within companies.
+    Many "outdoors" shops will offer a discount to Scouts so even if the company isn't listed below, it's worth asking!
 
 ??? info "Buying in bulk?"
 
