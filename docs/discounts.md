@@ -1,3 +1,7 @@
+---
+icon: lucide/ticket-percent
+---
+
 # Scout Discounts
 
 ## Outdoors Shops

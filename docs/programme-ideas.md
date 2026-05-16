@@ -1,3 +1,7 @@
+---
+icon: lucide/lightbulb
+---
+
 # Programme Ideas
 
 ## Visits and Visitors

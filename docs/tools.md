@@ -1,3 +1,7 @@
+---
+icon: lucide/wrench
+---
+
 # Tools and Apps
 
 ## Graphic Design

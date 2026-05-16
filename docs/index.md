@@ -1,3 +1,7 @@
+---
+icon: lucide/house
+---
+
 # Scoutbook
 
 A curated list of tools, programme ideas, campsites, and links for Scouts.

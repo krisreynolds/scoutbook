@@ -1,3 +1,7 @@
+---
+icon: lucide/earth
+---
+
 # Jamborees
 
 ???+ warning "International Events"

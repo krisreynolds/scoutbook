@@ -1,3 +1,7 @@
+---
+icon: lucide/pencil-ruler
+---
+
 # External Providers
 
 ## Duke of Edinburgh's Award

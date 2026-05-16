@@ -1,3 +1,7 @@
+---
+icon: lucide/shopping-basket
+---
+
 # Shops & Suppliers
 
 ### [Burnt Stuff](https://www.burntstuff.com/shop)
