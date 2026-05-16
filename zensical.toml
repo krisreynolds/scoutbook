@@ -43,6 +43,9 @@ font = { text = "Nunito Sans", code = "Roboto Mono" }
 logo = "images/logo.png"
 favicon = "images/logo.png"
 custom_dir = "overrides"
+features = [
+    "content.tooltips"
+]
 
 [[project.theme.palette]]
 media = "(prefers-color-scheme: light)"

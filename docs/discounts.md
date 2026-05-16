@@ -10,6 +10,12 @@ icon: lucide/ticket-percent
 
     Many "outdoors" shops will offer a discount to Scouts so even if the company isn't listed below, it's worth asking! Many will also be able to offer discounts for bulk purchases so it's worth asking to speak with the "Group Sales" or "B2B" teams within companies.
 
+??? info "Buying in bulk?"
+
+    Many retailers will be able to offer even bigger discounts on bulk purchases of things such as tents, rucksacks or other equipment. If you reach out to the company and ask to speak with their "Group Sales" or "B2B" teams, they'll let you know what their best prices are.
+
+    *[B2B]: B2B stands for business to business, referring to transactions that take place between one business and another.
+
 ### [Blacks](https://www.blacks.co.uk/)
 Blacks offer a 15% discount for youth members of Scouting and 20% for adult volunteers. To request a discount code to use online, you must complete [this form](https://app.smartsheet.com/b/form/7cc53e31bc684776aaedc0122f37b399). If you're shopping in store, show your scarf, a membership email or a photo of you in uniform at the checkout.
 
