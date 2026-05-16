@@ -1,5 +1,5 @@
 ---
-icon: lucide/drama
+icon: scoutbook/gangshow
 ---
 
 # Gang Shows
