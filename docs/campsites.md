@@ -1,6 +1,6 @@
 # Campsites
 
-!!! info ""
+???+ info "Sites run by Scout Adventures"
 
     Sites marked with :scoutbook-scoutadventures: are run by Scout Adventures, part of The Scout Association.
 

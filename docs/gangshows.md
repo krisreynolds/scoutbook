@@ -1,3 +1,7 @@
+---
+icon: lucide/drama
+---
+
 # Gang Shows
 
 ## Aberdeenshire
