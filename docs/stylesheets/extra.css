@@ -8,14 +8,14 @@
   --scout-teal:          #088486; /* Optimized high-contrast accent text variant */
   
   /* Section-Specific & Accent Palette */
-  --scout-red:          #ed3f23; /* Squirrels Section */
-  --scout-pink:         #ffb4e5; /* Supporting Accent */
-  --scout-green:        #25b755; /* General Branding */
-  --scout-navy:         #003982; /* Explorers Section */
-  --scout-blue:         #006ddf; /* Beavers Section */
-  --scout-yellow:       #ffe627; /* Supporting Accent */
-  --scout-orange:       #ff912a; /* Youthful/Optimistic Accent */
-  --scout-forest-green: #205b41; /* Badge Component Accent */
+  --scout-red:           #ed3f23; /* Squirrels Section */
+  --scout-pink:          #ffb4e5; /* Supporting Accent */
+  --scout-green:         #25b755; /* General Branding */
+  --scout-navy:          #003982; /* Explorers Section */
+  --scout-blue:          #006ddf; /* Beavers Section */
+  --scout-yellow:        #ffe627; /* Supporting Accent */
+  --scout-orange:        #ff912a; /* Youthful/Optimistic Accent */
+  --scout-forest-green:  #205b41; /* Badge Component Accent */
 
   /* Uniform/Media Specific Greens */
   --cub-section-green:   #23a950; /* Cubs Layouts */
@@ -116,6 +116,47 @@
   color: #495057 !important;
 }
 
+/* If an admonition follows the description, remove the paragraph's bottom rounding
+   so the admonition can visually continue the same card */
+.md-content h3 + p:has(+ .admonition) {
+  border-radius: 0 !important;
+  margin-bottom: 0 !important;
+  padding-bottom: 0.55rem !important;
+}
+
+/* Continue the card styling into the following admonition */
+.md-content h3 + p + .admonition {
+  background: #f8f9fa !important;
+  border: 1px solid #e9ecef !important;
+  border-top: none !important;
+  border-left: 5px solid var(--scout-purple) !important;
+  border-radius: 0 0 8px 8px !important;
+  padding: 0 1rem 0.85rem !important;
+  margin: 0 0 1rem 0 !important;
+  box-shadow: none !important;
+}
+
+/* Hide the empty admonition title row */
+.md-content h3 + p + .admonition > .admonition-title {
+  display: none !important;
+}
+
+/* Tidy spacing inside the merged admonition block */
+.md-content h3 + p + .admonition p {
+  margin: 0 !important;
+  font-size: 0.82rem !important;
+  line-height: 1.6 !important;
+}
+
+/* Match link colours inside the merged admonition */
+.md-content h3 + p + .admonition a {
+  color: var(--scout-purple) !important;
+}
+
+.md-content h3 + p + .admonition a:hover {
+  color: var(--scout-green) !important;
+}
+
 /* ==========================================================================
    3. DARK MODE (SLATE SCHEME) OVERRIDES
    ========================================================================== */
@@ -147,6 +188,21 @@
   background: #2a2a3e !important;
   border-color: #4a4a6a !important;
   border-left-color: var(--scout-teal) !important;
+}
+
+[data-md-color-scheme="slate"] .md-content h3 + p + .admonition {
+  color: #d4d4e8 !important;
+  background: #2a2a3e !important;
+  border-color: #4a4a6a !important;
+  border-left-color: var(--scout-teal) !important;
+}
+
+[data-md-color-scheme="slate"] .md-content h3 + p + .admonition a {
+  color: var(--scout-green) !important;
+}
+
+[data-md-color-scheme="slate"] .md-content h3 + p + .admonition a:hover {
+  color: var(--scout-purple) !important;
 }
 
 /* ==========================================================================
