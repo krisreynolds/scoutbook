@@ -1,0 +1,71 @@
+[project]
+site_name = "Scoutbook"
+site_url = "https://www.scoutbook.org.uk"
+site_description = "A curated list of tools, programme ideas, campsites, and links for Scouts."
+site_author = "Kris Reynolds"
+copyright = "&copy; 2026 Kris Reynolds/Scoutbook"
+docs_dir = "docs"
+site_dir = "site"
+extra_css = ["stylesheets/extra.css"]
+extra_javascript = ["js/external-links.js", "js/sidebar-buttons.js"]
+
+[project.extra]
+generator = false
+
+[project.extra.consent]
+title = "Cookie consent"
+description = """
+    We use cookies (unfortunately the edible kind!) to anonymously monitor how much this site is used, along with things like your browser and device type so we can keep improving.
+"""
+
+nav = [
+  { "Home" = "index.md" },
+  { "Campsites" = "campsites.md" },
+  { "External Activity Providers" = "external-providers.md" },
+  { "Gang Shows" = "gangshows.md" },
+  { "Jamborees" = "jamborees.md" },
+  { "Programme Ideas" = "programme-ideas.md" },
+  { "Scout Association Links" = "scouts-links.md" },
+  { "Scout Discounts" = "discounts.md" },
+  { "Scouting Facebook Groups" = "facebookgroups.md" },
+  { "Shops & Suppliers" = "shops-suppliers.md" },
+  { "Tools & Apps" = "tools.md" },
+  { "Useful Links" = "otherlinks.md" }
+]
+
+[project.theme]
+variant = "modern"
+font = { text = "Nunito Sans", code = "Roboto Mono" }
+logo = "images/logo.png"
+favicon = "images/logo.png"
+custom_dir = "overrides"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
+scheme = "default"
+primary = "custom"
+accent = "custom"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to dark mode"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: dark)"
+scheme = "slate"
+primary = "custom"
+accent = "custom"
+toggle.icon = "lucide/moon"
+toggle.name = "Switch to light mode"
+
+[project.markdown_extensions.admonition]
+[project.markdown_extensions.pymdownx.details]
+[project.markdown_extensions.pymdownx.superfences]
+
+[project.markdown_extensions.pymdownx.emoji]
+emoji_index = "zensical.extensions.emoji.twemoji"
+emoji_generator = "zensical.extensions.emoji.to_svg"
+options.custom_icons = ["overrides/.icons"]
+
+[project.markdown_extensions.attr_list]
+
+[project.markdown_extensions.toc]
+toc_depth = 2
