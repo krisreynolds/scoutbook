@@ -54,7 +54,11 @@
    ========================================================================== */
 
 /* Enforce global brand typography stack across headers, menus, and actions */
-.md-content h1, .md-content h2, .md-content h3, .md-nav__link, .md-button {
+.md-content h1,
+.md-content h2,
+.md-content h3,
+.md-nav__link,
+.md-button {
   font-family: var(--md-text-font) !important;
 }
 
@@ -116,44 +120,34 @@
   color: #495057 !important;
 }
 
-/* If an admonition follows the description, remove the paragraph's bottom rounding
-   so the admonition can visually continue the same card */
-.md-content h3 + p:has(+ .admonition) {
+/* If a resource note follows the description, let the note complete the card */
+.md-content h3 + p:has(+ .resource-note) {
   border-radius: 0 !important;
   margin-bottom: 0 !important;
-  padding-bottom: 0.55rem !important;
+  padding-bottom: 0.45rem !important;
 }
 
-/* Continue the card styling into the following admonition */
-.md-content h3 + p + .admonition {
+/* Resource note continuation block */
+.md-content h3 + p + .resource-note {
   background: #f8f9fa !important;
   border: 1px solid #e9ecef !important;
-  border-top: none !important;
+  border-top: 1px solid rgba(0, 0, 0, 0.08) !important;
   border-left: 5px solid var(--scout-purple) !important;
   border-radius: 0 0 8px 8px !important;
-  padding: 0 1rem 0.85rem !important;
+  padding: 0.55rem 1rem 0.85rem !important;
   margin: 0 0 1rem 0 !important;
-  box-shadow: none !important;
-}
-
-/* Hide the empty admonition title row */
-.md-content h3 + p + .admonition > .admonition-title {
-  display: none !important;
-}
-
-/* Tidy spacing inside the merged admonition block */
-.md-content h3 + p + .admonition p {
-  margin: 0 !important;
   font-size: 0.82rem !important;
   line-height: 1.6 !important;
+  color: #495057 !important;
 }
 
-/* Match link colours inside the merged admonition */
-.md-content h3 + p + .admonition a {
+/* Resource note links */
+.md-content h3 + p + .resource-note a {
   color: var(--scout-purple) !important;
+  text-decoration: underline !important;
 }
 
-.md-content h3 + p + .admonition a:hover {
+.md-content h3 + p + .resource-note a:hover {
   color: var(--scout-green) !important;
 }
 
@@ -190,18 +184,19 @@
   border-left-color: var(--scout-teal) !important;
 }
 
-[data-md-color-scheme="slate"] .md-content h3 + p + .admonition {
+[data-md-color-scheme="slate"] .md-content h3 + p + .resource-note {
   color: #d4d4e8 !important;
   background: #2a2a3e !important;
   border-color: #4a4a6a !important;
+  border-top-color: rgba(255, 255, 255, 0.08) !important;
   border-left-color: var(--scout-teal) !important;
 }
 
-[data-md-color-scheme="slate"] .md-content h3 + p + .admonition a {
+[data-md-color-scheme="slate"] .md-content h3 + p + .resource-note a {
   color: var(--scout-green) !important;
 }
 
-[data-md-color-scheme="slate"] .md-content h3 + p + .admonition a:hover {
+[data-md-color-scheme="slate"] .md-content h3 + p + .resource-note a:hover {
   color: var(--scout-purple) !important;
 }
 
@@ -257,7 +252,7 @@
   padding: 1.2rem 0.8rem !important; 
   background-color: var(--md-default-bg-color) !important;
   border-top: 1px solid rgba(0, 0, 0, 0.07) !important;   
-  margin-top: auto !important;       /* Critical layout push to pin item cleanly to the absolute base */
+  margin-top: auto !important; /* Critical layout push to pin item cleanly to the absolute base */
 }
 
 /* Contrast optimization for dark theme separating rule line */
