@@ -1,6 +1,8 @@
 # Jamborees
 
-These Jamborees advertise as being open to international groups and volunteers.
+??? warning "International Events"
+
+    All the international events listed state that they accept young people and/or from the UK, however you should confirm that this is the case and that you follow advice from [Gov.uk](https://www.gov.uk/foreign-travel-advice) when travelling abroad.
 
 ## 2026
 
