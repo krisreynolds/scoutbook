@@ -1,8 +1,8 @@
 ---
-icon: fontawesome/brands/facebook
+icon: scoutbook/facebook
 ---
 
-# Scouting Facebook Groups
+# Facebook Groups
 
 ## Advice and Ideas
 
