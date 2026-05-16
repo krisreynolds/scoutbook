@@ -60,7 +60,7 @@ A 400-acre woodland site in Ashdown Forest near Forest Row, featuring extensive 
 A 28-acre activity centre with open fields, three lodges, and a wide mix of adventurous activities for all ages.
 
 !!! failure ""
-    Belchamps' website is currently offline - why not check their [Facebook Page](https://www.facebook.com/belchampspage/?locale=en_GB) instead?
+    :lucide-circle-alert: Belchamps' website is currently offline - why not check their [Facebook Page](https://www.facebook.com/belchampspage/?locale=en_GB) instead?
 
 
 ### [Condovers Scout Camp Site](https://sites.google.com/view/condovers/home)
