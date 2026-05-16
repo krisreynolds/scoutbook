@@ -12,6 +12,10 @@ extra_javascript = ["js/external-links.js", "js/sidebar-buttons.js"]
 [project.extra]
 generator = false
 
+[project.extra.analytics]
+provider = "google"
+property = "G-JWNP8ZVZ0P"
+
 [project.extra.consent]
 title = "Cookie consent"
 description = """
