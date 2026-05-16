@@ -2,7 +2,7 @@
 icon: scoutbook/facebook
 ---
 
-# Facebook Groups
+# :scoutbook-facebook: Facebook Groups
 
 ## Advice and Ideas
 

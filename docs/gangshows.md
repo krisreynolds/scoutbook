@@ -3,7 +3,7 @@ icon: scoutbook/gangshow
 ---
 
 
-# Gang Shows
+# :scoutbook-gangshow: Gang Shows
 
 ## Aberdeenshire
 

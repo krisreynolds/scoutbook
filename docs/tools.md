@@ -2,7 +2,7 @@
 icon: lucide/wrench
 ---
 
-# Tools and Apps
+# :lucide-wrench: Tools and Apps
 
 ## Graphic Design
 

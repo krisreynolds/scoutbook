@@ -2,7 +2,7 @@
 icon: lucide/link
 ---
 
-# Other Useful Links
+# :lucide-link: Other Useful Links
 
 ## YouTube Channels
 

@@ -2,7 +2,7 @@
 icon: lucide/tent-tree
 ---
 
-# Campsites
+# :scoutbook-scoutadventures: Campsites
 
 ???+ info "Sites run by Scout Adventures"
 

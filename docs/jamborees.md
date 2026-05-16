@@ -2,7 +2,7 @@
 icon: lucide/earth
 ---
 
-# Jamborees
+# :lucide-earth: Jamborees
 
 ???+ warning "International Events"
 

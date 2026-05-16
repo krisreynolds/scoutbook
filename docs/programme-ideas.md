@@ -2,7 +2,7 @@
 icon: lucide/lightbulb
 ---
 
-# Programme Ideas
+# :lucide-lightbulb: Programme Ideas
 
 ## Visits and Visitors
 
