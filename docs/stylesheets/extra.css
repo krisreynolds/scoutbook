@@ -65,6 +65,7 @@
 .md-typeset p {
   font-size: 0.85rem !important;
   line-height: 1.7 !important;
+  text-align: justify !important;
 }
 
 .md-typeset li {
