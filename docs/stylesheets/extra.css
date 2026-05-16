@@ -4,26 +4,26 @@
 
 :root {
   /* Core Brand Identity Colors */
-  --scout-purple:        #7413dc;
-  --scout-teal:          #088486;
+  --scout-purple:        #7413dc; /* Primary brand anchor */
+  --scout-teal:          #088486; /* Optimized high-contrast accent text variant */
   
   /* Section-Specific & Accent Palette */
-  --scout-red:           #ed3f23;
-  --scout-pink:          #ffb4e5;
-  --scout-green:         #25b755;
-  --scout-navy:          #003982;
-  --scout-blue:          #006ddf;
-  --scout-yellow:        #ffe627;
-  --scout-orange:        #ff912a;
-  --scout-forest-green:  #205b41;
+  --scout-red:           #ed3f23; /* Squirrels Section */
+  --scout-pink:          #ffb4e5; /* Supporting Accent */
+  --scout-green:         #25b755; /* General Branding */
+  --scout-navy:          #003982; /* Explorers Section */
+  --scout-blue:          #006ddf; /* Beavers Section */
+  --scout-yellow:        #ffe627; /* Supporting Accent */
+  --scout-orange:        #ff912a; /* Youthful/Optimistic Accent */
+  --scout-forest-green:  #205b41; /* Badge Component Accent */
 
   /* Uniform/Media Specific Greens */
-  --cub-section-green:   #23a950;
-  --scout-section-green: #004851;
+  --cub-section-green:   #23a950; /* Cubs Layouts */
+  --scout-section-green: #004851; /* Scouts Layouts */
 
   /* Grayscale Spectrum */
   --scout-white:         #ffffff;
-  --scout-black:         #000000;
+  --scout-black:         #000000; /* Network Section & Base Typography */
   --scout-grey-80:       #2f2f2f;
   --scout-grey-60:       #636363;
   --scout-grey-40:       #979797;
@@ -53,6 +53,7 @@
    2. MAIN CONTENT STYLING & TEXT LAYOUTS
    ========================================================================== */
 
+/* Enforce global brand typography stack across headers, menus, and actions */
 .md-content h1,
 .md-content h2,
 .md-content h3,
@@ -61,11 +62,13 @@
   font-family: var(--md-text-font) !important;
 }
 
+/* Hide permanent anchor headerlinks next to titles */
 .md-content h2 .headerlink,
 .md-content h3 .headerlink {
   display: none;
 }
 
+/* Styled Section Sub-Headers (County Labels) */
 .md-content h2 {
   font-size: 0.7rem !important;
   font-weight: 800 !important;
@@ -78,6 +81,7 @@
   border-bottom: 2px solid var(--scout-purple) !important;
 }
 
+/* Main Interactive Card Component Headings */
 .md-content h3 {
   font-size: 1rem !important;
   font-weight: 700 !important;
@@ -102,6 +106,7 @@
   text-decoration: underline !important;
 }
 
+/* Main Interactive Card Component Descriptions (Paragraph immediately following H3) */
 .md-content h3 + p {
   background: #f8f9fa !important;
   border: 1px solid #e9ecef !important;
@@ -115,21 +120,62 @@
   color: #495057 !important;
 }
 
-/* Resource note shown beneath card content */
-.md-content .resource-note {
-  margin: -0.25rem 0 1.2rem 0 !important;
-  font-size: 0.82rem !important;
-  line-height: 1.6 !important;
-  color: #495057 !important;
+/* If a failure/error admonition follows the description, let it complete the card */
+.md-content h3 + p:has(+ .admonition.failure),
+.md-content h3 + p:has(+ .admonition.error) {
+  border-radius: 0 !important;
+  margin-bottom: 0 !important;
+  padding-bottom: 0.45rem !important;
 }
 
-.md-content .resource-note a {
-  color: var(--scout-purple) !important;
+/* Failure admonition becomes the lower panel of the campsite card */
+.md-content h3 + p + .admonition.failure,
+.md-content h3 + p + .admonition.error {
+  margin: 0 0 1rem 0 !important;
+  border-radius: 0 0 8px 8px !important;
+  border-top: 1px solid rgba(0, 0, 0, 0.08) !important;
+  border-right: 1px solid #e9ecef !important;
+  border-bottom: 1px solid #e9ecef !important;
+  border-left: 5px solid var(--scout-purple) !important;
+  box-shadow: none !important;
+  background: #f8f9fa !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+}
+
+/* Hide empty title row if present */
+.md-content h3 + p + .admonition.failure > .admonition-title,
+.md-content h3 + p + .admonition.error > .admonition-title {
+  display: none !important;
+}
+
+/* Style admonition body like a compact failure callout */
+.md-content h3 + p + .admonition.failure > :not(.admonition-title),
+.md-content h3 + p + .admonition.error > :not(.admonition-title) {
+  margin: 0 !important;
+  padding: 0.65rem 1rem 0.85rem 1rem !important;
+  font-size: 0.82rem !important;
+  line-height: 1.6 !important;
+  color: #7a1f1f !important;
+  background: rgba(237, 63, 35, 0.08) !important;
+}
+
+/* Clean paragraph spacing inside */
+.md-content h3 + p + .admonition.failure p,
+.md-content h3 + p + .admonition.error p {
+  margin: 0 !important;
+}
+
+/* Failure links */
+.md-content h3 + p + .admonition.failure a,
+.md-content h3 + p + .admonition.error a {
+  color: #9f2d20 !important;
   text-decoration: underline !important;
 }
 
-.md-content .resource-note a:hover {
-  color: var(--scout-green) !important;
+.md-content h3 + p + .admonition.failure a:hover,
+.md-content h3 + p + .admonition.error a:hover {
+  color: var(--scout-purple) !important;
 }
 
 /* ==========================================================================
@@ -165,15 +211,28 @@
   border-left-color: var(--scout-teal) !important;
 }
 
-[data-md-color-scheme="slate"] .md-content .resource-note {
-  color: #d4d4e8 !important;
+[data-md-color-scheme="slate"] .md-content h3 + p + .admonition.failure,
+[data-md-color-scheme="slate"] .md-content h3 + p + .admonition.error {
+  border-top-color: rgba(255, 255, 255, 0.08) !important;
+  border-right-color: #4a4a6a !important;
+  border-bottom-color: #4a4a6a !important;
+  border-left-color: var(--scout-teal) !important;
+  background: #2a2a3e !important;
 }
 
-[data-md-color-scheme="slate"] .md-content .resource-note a {
-  color: var(--scout-green) !important;
+[data-md-color-scheme="slate"] .md-content h3 + p + .admonition.failure > :not(.admonition-title),
+[data-md-color-scheme="slate"] .md-content h3 + p + .admonition.error > :not(.admonition-title) {
+  color: #ffd7d2 !important;
+  background: rgba(237, 63, 35, 0.12) !important;
 }
 
-[data-md-color-scheme="slate"] .md-content .resource-note a:hover {
+[data-md-color-scheme="slate"] .md-content h3 + p + .admonition.failure a,
+[data-md-color-scheme="slate"] .md-content h3 + p + .admonition.error a {
+  color: #ffb4a8 !important;
+}
+
+[data-md-color-scheme="slate"] .md-content h3 + p + .admonition.failure a:hover,
+[data-md-color-scheme="slate"] .md-content h3 + p + .admonition.error a:hover {
   color: var(--scout-purple) !important;
 }
 
@@ -181,15 +240,17 @@
    4. NAVIGATION STATES (ACTIVE PAGES)
    ========================================================================== */
 
+/* Light Mode: Highlights currently active file and active ancestor groups */
 [data-md-color-scheme="default"] .md-nav__link--active,
 [data-md-color-scheme="default"] .md-nav__item--active > .md-nav__link {
-  color: var(--scout-teal) !important;
+  color: var(--scout-teal) !important; 
   font-weight: 700 !important;
 }
 
+/* Dark Mode: Highlights currently active file and active ancestor groups */
 [data-md-color-scheme="slate"] .md-nav__link--active,
 [data-md-color-scheme="slate"] .md-nav__item--active > .md-nav__link {
-  color: var(--scout-green) !important;
+  color: var(--scout-green) !important; 
   font-weight: 700 !important;
 }
 
@@ -197,15 +258,18 @@
    5. EXTENDED SIDEBAR EMBEDDED BUTTONS (FLEXBOX COUPLING)
    ========================================================================== */
 
+/* Configure primary desktop menu wrapper into a vertical flex stack */
 .md-sidebar--primary .md-sidebar__scrollwrap {
   display: flex !important;
   flex-direction: column !important;
 }
 
+/* Forces structural page nav links to consume free space, pushing footers down */
 .md-sidebar--primary .md-sidebar__scrollwrap > .md-nav {
   flex-grow: 1 !important;
 }
 
+/* Configure mobile side drawer container into an isolated vertical flex column */
 .md-nav--drawer {
   display: flex !important;
   flex-direction: column !important;
@@ -216,20 +280,23 @@
   flex-grow: 1 !important;
 }
 
+/* Custom Navigation Button Container Layout */
 [id="md-nav-extra"] {
   display: flex !important;
   flex-direction: column !important;
-  gap: 12px !important;
-  padding: 1.2rem 0.8rem !important;
+  gap: 12px !important;             
+  padding: 1.2rem 0.8rem !important; 
   background-color: var(--md-default-bg-color) !important;
-  border-top: 1px solid rgba(0, 0, 0, 0.07) !important;
-  margin-top: auto !important;
+  border-top: 1px solid rgba(0, 0, 0, 0.07) !important;   
+  margin-top: auto !important;       /* Critical layout push to pin item cleanly to the absolute base */
 }
 
+/* Contrast optimization for dark theme separating rule line */
 [data-md-color-scheme="slate"] [id="md-nav-extra"] {
   border-top-color: rgba(255, 255, 255, 0.1) !important;
 }
 
+/* Core Functional Button Layout rules */
 [id="md-nav-extra"] a.md-nav-btn {
   display: flex !important;
   align-items: center !important;
@@ -250,17 +317,12 @@
   opacity: 0.9;
 }
 
+/* Layout alignment controls for SVG element embeds within the link blocks */
 [id="md-nav-extra"] a.md-nav-btn svg {
   margin-right: 8px !important;
-  flex-shrink: 0 !important;
+  flex-shrink: 0 !important; /* Prevents structural collapse of layout on narrow viewports */
 }
 
-[id="md-nav-extra"] a.md-nav-btn--suggest {
-  background: var(--scout-green) !important;
-  color: #ffffff !important;
-}
-
-[id="md-nav-extra"] a.md-nav-btn--beer {
-  background: var(--scout-yellow) !important;
-  color: #000000 !important;
-}
+/* Independent Background Variant Overrides */
+[id="md-nav-extra"] a.md-nav-btn--suggest { background: var(--scout-green) !important; color: #ffffff !important; }
+[id="md-nav-extra"] a.md-nav-btn--beer { background: var(--scout-yellow) !important; color: #000000 !important; }

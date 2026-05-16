@@ -59,11 +59,9 @@ A 400-acre woodland site in Ashdown Forest near Forest Row, featuring extensive 
 ### [Belchamps Scout Activity Centre](https://www.belchamps.org.uk/)
 A 28-acre activity centre with open fields, three lodges, and a wide mix of adventurous activities for all ages.
 
-<p class="resource-note">
-  Belchamps' website is currently offline - why not check their
-  <a href="https://www.facebook.com/belchampspage/?locale=en_GB">Facebook Page</a>
-  instead?
-</p>
+!!! failure ""
+    Belchamps' website is currently offline - why not check their [Facebook Page](https://www.facebook.com/belchampspage/?locale=en_GB) instead?
+
 
 ### [Condovers Scout Camp Site](https://sites.google.com/view/condovers/home)
 The site is a 3.5-acre facility situated in West Tilbury and is managed by the Thurrock Scout District. It offers a quiet environment for traditional camping and includes facilities like Havers Lodge—a base for dining and activities—alongside on-site adventurous activities such as an abseiling tower.
