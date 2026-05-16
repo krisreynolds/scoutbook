@@ -62,6 +62,16 @@
   font-family: var(--md-text-font) !important;
 }
 
+.md-typeset p {
+  font-size: 0.85rem !important;
+  line-height: 1.7 !important;
+}
+
+.md-typeset li {
+  font-size: 0.85rem !important;
+  line-height: 1.6 !important;
+}
+
 /* Hide permanent anchor headerlinks next to titles */
 .md-content h2 .headerlink,
 .md-content h3 .headerlink {
