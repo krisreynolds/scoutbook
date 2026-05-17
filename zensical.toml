@@ -80,6 +80,11 @@ options.custom_icons = ["overrides/.icons"]
 toc_depth = 2
 
 [[project.extra.social]]
+icon = "fontawesome/brands/facebook"
+link = "https://www.facebook.com/scoutbookuk"
+name = "Scoutbook on Facebook"
+
+[[project.extra.social]]
 icon = "fontawesome/brands/github"
 link = "https://github.com/krisreynolds/scoutbook/"
 name = "Scoutbook on GitHub"
