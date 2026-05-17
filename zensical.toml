@@ -78,3 +78,8 @@ options.custom_icons = ["overrides/.icons"]
 
 [project.markdown_extensions.toc]
 toc_depth = 2
+
+[[project.extra.social]]
+icon = "fontawesome/brands/github"
+link = "https://github.com/krisreynolds/scoutbook/"
+name = "Scoutbook on GitHub"
