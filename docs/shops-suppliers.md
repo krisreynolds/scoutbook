@@ -24,3 +24,6 @@ Fully owned by Sheffield Scouts, The Scout and Guide Shop sells the full range o
 
 ### [The Woggle Makers](https://thewogglemakers.co.uk)
 The Woggle Makers is a UK-based maker selling handmade genuine leather woggles for Scouts, Cubs, Beavers, Squirrels, Guides, and Brownies. Their standout product is an eco-friendly biodegradable leather woggle from just 28p — a greener alternative to plastic — with personalised and named woggles also available. Free P&P on most orders.
+
+### [Unity Insurance](https://www.unityinsuranceservices.co.uk)
+Unity Insurance Services is a specialist, social enterprise insurance broker owned by The Scout Association that provides tailored coverage for charities, youth groups, and non-profits, donating 100% of its profits back to charity.
