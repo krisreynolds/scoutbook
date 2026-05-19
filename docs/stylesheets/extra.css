@@ -50,6 +50,7 @@
 }
 
 /* ==========================================================================
+/* ==========================================================================
    2. MAIN CONTENT STYLING & TEXT LAYOUTS
    ========================================================================== */
 
@@ -96,7 +97,7 @@
 .md-content h3 {
   font-size: 1rem !important;
   font-weight: 700 !important;
-  padding: 0.85rem 1rem 0.6rem !important;
+  padding: 0.85rem 1rem 0.2rem !important; /* REDUCED bottom padding from 0.6rem to 0.2rem */
   border: 1px solid #e9ecef !important;
   border-left: 5px solid var(--scout-purple) !important;
   border-radius: 0 8px 0 0 !important;
@@ -124,7 +125,7 @@
   border-top: none !important;
   border-left: 5px solid var(--scout-purple) !important;
   border-radius: 0 0 8px 8px !important;
-  padding: 0.6rem 1rem 0.85rem !important;
+  padding: 0.2rem 1rem 0.85rem !important; /* REDUCED top padding from 0.6rem to 0.2rem */
   margin: 0 0 1rem 0 !important;
   font-size: 0.85rem !important;
   line-height: 1.65 !important;
