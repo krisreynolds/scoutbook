@@ -9,6 +9,11 @@ site_dir = "site"
 extra_css = ["stylesheets/extra.css"]
 extra_javascript = ["js/external-links.js", "js/sidebar-buttons.js"]
 
+# Enable features for content metadata
+features = [
+    "content.metadata.updated"
+]
+
 [project.extra]
 generator = false
 
