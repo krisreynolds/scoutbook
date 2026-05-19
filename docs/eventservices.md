@@ -2,7 +2,7 @@
 icon: lucide/calendar-1
 ---
 
-# lucide/calendar-1 Event Services & Teams
+# :lucide/calendar-1: Event Services & Teams
 
 ## Event Services
 
