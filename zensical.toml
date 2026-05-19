@@ -26,6 +26,7 @@ nav = [
   { "Home" = "index.md" },
   { "Campsites" = "campsites.md" },
   { "External Activity Providers" = "external-providers.md" },
+  { "Event Support Service & Teams" = "eventservices.md" },
   { "Gang Shows" = "gangshows.md" },
   { "Jamborees" = "jamborees.md" },
   { "Programme Ideas" = "programme-ideas.md" },
