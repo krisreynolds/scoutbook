@@ -16,6 +16,10 @@ It’s a 100% independent labor of love with zero sponsorship, advertising, or f
 
 Spot a great resource we missed? [Let us know](https://form.jotform.com/260734372907057) and help us keep the collective Scouting knowledgebase growing!
 
+## Keep up to date
+
+We're on [Facebook](https://www.facebook.com/scoutbookuk)! We won't be posting every time we add a new resource but any big updates or new categories, functionality or news will be shared there - make sure you follow us!
+
 ## The boring bit
 
 This list is community-maintained. Anyone can suggest an entry using the link in the navigation — all submissions are reviewed before being added but we take no responsibility for the content of external websites. Inclusion on this site is not an indication of recommendation or endorsement.
