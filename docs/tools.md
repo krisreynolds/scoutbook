@@ -25,6 +25,9 @@ Online Scout Manager (OSM) is a web-based administration platform designed by Sc
 ### [Scouts RAM](https://site.scoutsram.co.uk/)
 Scouts RAM is a specialised management tool created by a leader to simplify the mandatory risk assessment process for Scouting volunteers. The platform features deep integration with Online Scout Manager (OSM), allowing users to easily import, export, and share assessments across multiple groups without duplicating effort. Since its launch, the system has grown to support over 400 groups and houses a library of more than 40,000 risks, significantly reducing administrative burdens for leaders. Costs start at just £5 for unlimited users within a group.
 
+### [Scoutworks](https://scoutworks.app)
+Scoutworks is a modern administrative management application designed specifically for UK Scout groups to streamline their local operations, communication, and waiting lists. The platform acts as an intuitive alternative to traditional administrative systems by prioritizing ease of use for volunteer leaders, parents, and executive committees.
+
 ## Website Hosting
 
 ### [34SP](https://www.34sp.com/)
