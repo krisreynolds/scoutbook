@@ -4,6 +4,13 @@ icon: lucide/shopping-basket
 
 # :lucide-shopping-basket: Shops & Suppliers
 
+## Equipment Repair
+
+### [Lancashire Sports Repairs](https://lancashiresportsrepairs.co.uk/)
+Lancashire Sports Repairs (LSR) have for many years been acknowledged by manufacturers and outdoor enthusiasts as the UK's leading repair specialist of outdoor gear. They specialise in the repair of all things outdoor, including tents and walking boots.
+
+## Uniform, Clothing Equipment and Woggles
+
 ### [Burnt Stuff](https://www.burntstuff.com/shop)
 Run by a former Scouter from his home on the Isle of Man, Burnt Stuff offers a range of personalisable 3D printed and laser engraved Scouting items including woggles, clocks, and even camping cutlery!
 
