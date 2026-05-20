@@ -102,6 +102,9 @@ An 8-acre park within the North Circular, easily reached from Bounds Green stati
 ### [Danemead Campsite](https://danemeadcampsite.org.uk/)
 A 35-acre ancient woodland site near Broxbourne, perfect for backwoods activities and lightweight camps.
 
+### [Downe Activity Centre](https://downeactivitycentre.org.uk/)
+Downe Activity Centre has been home to outdoor adventure for Scouts since 1929. Generations of young people and leaders have camped, learned, and taken part in activities there. The centre provides a wide range of activities, experienced instructors, and flexible facilities for camps, lodge accommodation, and larger events.
+
 ### [Frylands Wood Scout Outdoor Centre](https://frylandswood.co.uk)
 Frylands Wood Scout Outdoor Centre is a 60-acre woodland site in Greater London, on the border of Surrey, providing a wide range of adventurous activities and traditional camping facilities managed by Croydon Scouts.
 
@@ -131,6 +134,9 @@ A versatile site for up to 700 campers with indoor accommodation and varied acti
 A 6-acre wooded site with individual areas and firepits, perfect for traditional or back-to-basics camping.
 
 ## Hertfordshire
+
+### [Phasels Wood Activity Centre](https://www.phaselswood.org.uk)
+90 acres of meadows and woodland, with lots of onsite activities from archery to zorbs. Kayaking available offsite.
 
 ### [Well End Activity Centre](https://www.wellend.org.uk)
 Well End Activity Centre is a compact 9-acre site in Hertfordshire featuring five acres of meadow and four acres of woodland, specifically designed to offer a focused range of outdoor experiences for younger youth groups.

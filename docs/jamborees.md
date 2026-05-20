@@ -56,6 +56,10 @@ Takes place every 4 years.
 Gdańsk, Poland. 30th July - 8th August 2027.
 Takes place every 4 years (in different countries).
 
+### [CamJam 2027](https://camjam.org.uk/)
+Huntingdon, UK. 31st July - 7th August 2027
+Usually takes place every 4 years.
+
 ### [Australian Jamboree 2028](https://www.aj2028.com.au/)
 Victoria, Australia. 29th December 2027 - 7th January 2028.
 Takes place every 3 years.
