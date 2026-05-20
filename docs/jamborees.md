@@ -66,6 +66,11 @@ Takes place every 3 years.
 
 ## 2028
 
+### [Larkin Jamboree](https://www.larkinjamboree.org.uk/)
+North Yorkshire, UK. Summer 2028
+Dates to be confirmed
+Takes place every 4 years.
+
 ### [Roverway](https://www.scouts.org.uk/volunteers/running-your-section/programme-guidance/international-scouts-and-events/international-events/roverway/)
 Switzerland. Summer 2028.
 Exact location and dates still to be confirmed.
