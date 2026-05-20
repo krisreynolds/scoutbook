@@ -135,6 +135,9 @@ A 6-acre wooded site with individual areas and firepits, perfect for traditional
 
 ## Hertfordshire
 
+### [Lees Wood Scout & Guide Activity Centre](https://leeswood.org.uk/)
+Lees Wood is a peaceful, wooded Scout and Guide activity centre in Hertfordshire offering traditional back-to-basics camping alongside modern indoor accommodation. It features a wide range of outdoor activities, including climbing, archery, and bushcraft, making it a great choice for youth group adventures.
+
 ### [Phasels Wood Activity Centre](https://www.phaselswood.org.uk)
 90 acres of meadows and woodland, with lots of onsite activities from archery to zorbs. Kayaking available offsite.
 
