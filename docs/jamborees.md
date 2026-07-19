@@ -10,14 +10,6 @@ icon: lucide/earth
 
 ## 2026
 
-### [Baltic Jamboree](https://bjam.eu)
-Tagametsa, Estonia. 11th - 17th July 2026.
-Takes place every 4 years.
-
-### [Jamboree Denmark](https://spejderneslejr.dk/en)
-Hedeland, Denmark. 18th - 26th July 2026.
-Takes place every 5 years.
-
 ### [Blair Atholl Patrol Jamborette](https://www.jamborette.org.uk/)
 Perthshire, Scotland. 20th - 31st July 2026.
 Takes place every 2 years.
