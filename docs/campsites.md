@@ -163,8 +163,6 @@ The Wymondley Wood Scout and Guide centre is a residential and camping centre fo
 ### [Buckmore Park Scout Campsite](https://www.buckmorepark.org.uk)
 Buckmore Park Scout Campsite offers a wide range of options for visits – whether for a single day or residential stays. Buckmore Park also offers a large number of activity options.
 
-## Hopehill Campsite
-
 ### [Hopehill Campsite](https://www.graveshamscouts.org.uk/hopehill-campsite/)
 A peaceful site in North West Kent surrounded by woodland and grassy glades, ideal for camping and outdoor challenges.
 
