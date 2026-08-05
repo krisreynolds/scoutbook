@@ -18,6 +18,11 @@ A lochside centre in Loch Lomond and Trossachs National Park at Shelter Park, Lo
 ### [Chelwood Campsite](https://www.1stkeynshamscouts.org.uk/chelwood/)
 A 30-acre site hidden in the Avon countryside with broad camping fields, woodland edges, and a winding stream perfect for bivouacking.
 
+## Bedfordshire
+
+### [Boyd Scout Campsite & Activity Centre](https://boydcampsite.org.uk)
+The Boyd Memorial Campsite & Activity Centre is located on the border of Bedfordshire and Hertfordshire in the small village of Henlow.  We have around 12 acres of grounds which are made up from about 9 acres of grassland, 2 acres of woodland and the remainder set aside for the various activities that are on offer.
+
 ## Berkshire
 
 ### [Earleywood Campsite and Scout Centre](https://earleywood.org.uk)
@@ -150,6 +155,9 @@ Lees Wood is a peaceful, wooded Scout and Guide activity centre in Hertfordshire
 ### [Well End Activity Centre](https://www.wellend.org.uk)
 Well End Activity Centre is a compact 9-acre site in Hertfordshire featuring five acres of meadow and four acres of woodland, specifically designed to offer a focused range of outdoor experiences for younger youth groups.
 
+### [Wymondley Wood Scout And Guide Centre](https://www.wymondleywood-scoutandguide-centre.com)
+The Wymondley Wood Scout and Guide centre is a residential and camping centre for organised youth groups. Located between the picturesque villages of Willian and Great Wymondley in North Hertfordshire, the 4-acre site is situated in a 20-acre conservation area consisting of mature woodland, streams, ponds and open grassland. 
+
 ## Kent
 
 ### [Buckmore Park Scout Campsite](https://www.buckmorepark.org.uk)
@@ -200,11 +208,6 @@ A remote 110-acre estate in Glen Lyon near Aberfeldy, offering self-catering lod
 ### [Huish Woods](https://www.huishwoods.org.uk)
 Huish Woods is a 40-acre mixed woodland activity centre in Somerset that offers a range of adventurous activities and indoor accommodation for Scouts, Guides, and other youth organisations.
 
-## South Yorkshire
-
-### [Hesley Wood](https://hesleywood.org.uk/)
-132 acres of fields and woodland with three lodges and 26 camping pitches set for exploration and adventure.
-
 ## Staffordshire
 
 ### [Beaudesert Outdoor Activity Centre](https://beaudesert.org.uk)
@@ -247,7 +250,31 @@ A welcoming site near Arundel, set in woodland and meadow, run by local voluntee
 ### [Park Wood Scout Campsite](https://www.parkwoodcampsite.org.uk)
 Parkwood Scout Campsite is a 23-acre ancient woodland site in West Sussex managed by Brighton and Hove Scouts, offering secluded camping glades and indoor facilities at the foot of the South Downs.
 
-## West Yorkshire
+## Yorkshire
+
+### [Blackhills Scout Campsite](https://blackhillscampsite.org.uk)
+Whether you are seeking a rugged backwoods experience or the comfort of our centrally heated indoor centres, Blackhills offers a complete range of accommodation to suit every group. The 40-acre site is designed to be a haven of fun and adventure for all ages while remaining a protected natural environment. Guests enjoy convenient access to mains water, modern toilet and shower facilities, and dedicated fireplaces on every site,supported by a plentiful local wood supply.
+
+### [Bradley Wood Activity Centre](https://bradleywood.org.uk/bw-live/)
+Located in the heart of West Yorkshire, Bradley Wood Activity Centre is a spectacular 56-acre woodland campsite operated by the West Yorkshire County Scouts. It offers a diverse range of adventurous onsite activities, indoor accommodations, and team-building programs for Scouts, schools, youth organizations, and corporate groups alike.
+
+### [Fanwood Activity Centre](https://fanwoodactivitycentre.org.uk)
+Fanwood Activity Centre is a vibrant, volunteer-run campsite nestled in the heart of Gomersal, West Yorkshire, and operated by the Spen Valley Scouts and Guides. Steeped in history as a former 1920s golf course, the site features spacious camping fields, the modern Frank Harris Training Centre, and an indoor bunkhouse that accommodates up to 41 people. It offers a great mix of adventurous onsite activities, including archery, a bouldering wall, low ropes, and an indoor simulated caving system.
+
+### [Hesley Wood](https://hesleywood.org.uk/)
+132 acres of fields and woodland with three lodges and 26 camping pitches set for exploration and adventure.
 
 ### [Scammonden Activity Centre](https://scammonden.org.uk/)
 Scammonden Activity Centre is a renovated 17th-century farmhouse providing self-catering accommodation and outdoor activity space for youth groups. Situated near Huddersfield and Scammonden Reservoir, the centre offers a versatile base for exploring the surrounding countryside and engaging in various outdoor pursuits.
+
+### [Sconce Campsite](https://www.sconcecampsite.org)
+Set on the edge of Baildon moor, Sconce includes a 31 bed residential building, three camping areas, some with open fires, an activities woodland with conservation area and crags and a further simple building with a large hall and kitchen.
+
+### [Silverwood](https://barnsleyscouts.org.uk/silverwood/)
+ilverwood Scout Camp is a fantastic 10-acre campsite located in Silkstone, near Barnsley, South Yorkshire, right on the edge of the scenic Peak District. Steeped in history as a former WWI army training camp, it features a mix of green camping fields surrounded by dense woodland, modern indoor lodge accommodations, and stunning panoramic views of the Pennines.  
+
+### [Whitley Beaumont Scout Camp](https://whitleybeaumont.co.uk)
+Tucked away near Lepton in Huddersfield, Whitley Beaumont Scout Camp is an 11-acre campsite run by the local Scout districts, offering a secluded and highly bio-diverse setting for outdoor youth activities. It features five distinct camping areas, two utility buildings, and a large campfire circle, making it a favorite spot for "back to basics" camping, survival skills, and Duke of Edinburgh award expeditions.
+
+### [Woolley Edge Scouts Campsite](https://www.woolleyedgecampsite.co.uk)
+Overlooking the Pennines beyond with superb views over The Yorkshire Sculpture Park and Emley Moor TV Mast, the site consists of 14 acres (9 woodland and 5 grassland) and is maintained to a high standard by Heavy Woollen Scout District.
