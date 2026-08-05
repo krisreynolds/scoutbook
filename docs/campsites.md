@@ -33,6 +33,12 @@ Extensive woodlands sites and two large fields for camping, indoor accommodation
 ### [Dunham Park Scout Camp](https://dunhampark.org.uk)
 Dunham Park Scout Camp is a serene camping facility located within the historic Dunham Massey estate in Cheshire, offering traditional outdoor experiences for Scouts and youth groups under the management of Greater Manchester West County Scouts.
 
+### [Forest Camp Activity Centre](https://cheshirescouts.cinolla.com/forest-camp/)
+Located in rural Cheshire, Forest Camp Activity Centre is a large wooded site which can accommodate over 750 people. Take your pick from camping outdoors or staying in one of their indoor residential facilities. Spanning across over 70 acres of woodland, you can choose from over 17 activities including Archery, Bouldering, Climbing, Crate Stack, Cave Bus, High Ropes, Kayaks, Low Ropes, Orienteering, Pioneering, Rafting and a bunch more!
+
+### [Queen Charlotte’s Wood](https://bookings.mwscouts.org/queen-charlottes-wood/)
+Queen Charlotte’s Wood comprises of nine acres of undulating woodland and sheltered grass sites that make it suitable for Group or Patrol camping. The site is p an ideal base site for those completing their Duke of Edinburgh Award or wishing to walk the Sandstone Trail. Many campers go to Queen Charlotte’s Wood to get back to basics and practice bushcraft or backwoods cooking.
+
 ## Cumbria
 
 ### [Great Tower](https://www.scoutadventures.org.uk/centre/great-tower) :scoutbook-scoutadventures:
