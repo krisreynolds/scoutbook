@@ -17,6 +17,9 @@ Run by a former Scouter from his home on the Isle of Man, Burnt Stuff offers a r
 ### [Carrie-Lou Print & Embroidery](https://www.carrielou.co.uk/)
 Carrie-Lou is a UK-based business that specialises in custom print and embroidery services for individuals, businesses, and organisations. The company offers a diverse range of personalised products, including custom-designed badges, branded clothing like hoodies and t-shirts, and various accessories such as bags and stickers. They are particularly well-known for supplying bespoke merchandise to youth groups, specifically catering to Scouts and Girlguiding units.
 
+### [DDDPrinted.com](https://www.dddprinted.com)
+Run by an active Scouter, DDDPrinted.com is a hobby gone too far! A selection of 3D printed items, including Christmas decorations, NFC tags, keyrings and much more with plenty of customisation options. Use code `#!python SCOUTBOOK10` to get 10% off your purchase!
+
 ### [Glasgow Scout Shop](https://www.glasgowscoutshop.com/)
 Glasgow Scout Shop can provide for all your Scouting needs with uniforms, badges, books, and accessories for games, activities, and camping. As well as official uniform, they also stock a number of items of casual clothing.
 

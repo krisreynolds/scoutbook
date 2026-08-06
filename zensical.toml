@@ -77,6 +77,10 @@ options.custom_icons = ["overrides/.icons"]
 [project.markdown_extensions.attr_list]
 [project.markdown_extensions.pymdownx.snippets]
 
+[project.markdown_extensions]
+pymdownx.highlight = {}
+pymdownx.inlinehilite = {}
+
 [project.markdown_extensions.toc]
 toc_depth = 2
 
