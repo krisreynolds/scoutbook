@@ -28,6 +28,9 @@ ScoutForge is an online governance and compliance tool specifically built to hel
 ### [Scouts RAM](https://site.scoutsram.co.uk/)
 Scouts RAM is a specialised management tool created by a leader to simplify the mandatory risk assessment process for Scouting volunteers. The platform features deep integration with Online Scout Manager (OSM), allowing users to easily import, export, and share assessments across multiple groups without duplicating effort. Since its launch, the system has grown to support over 400 groups and houses a library of more than 40,000 risks, significantly reducing administrative burdens for leaders. Costs start at just £5 for unlimited users within a group.
 
+### [Scout Suite](https://scoutsuite.app)
+Run your Scout group, unit, district, county, region or area. Scout Suite brings members, finance, badges, events, safety, group phones and shareable call flows together for groups — with district and county / area / region dashboards when you need a wider view, including camps and larger events.
+
 ### [Scoutworks](https://scoutworks.app)
 Scoutworks is a modern administrative management application designed specifically for UK Scout groups to streamline their local operations, communication, and waiting lists. The platform acts as an intuitive alternative to traditional administrative systems by prioritizing ease of use for volunteer leaders, parents, and executive committees.
 
