@@ -17,7 +17,7 @@ Google for Nonprofits is a programme that gives eligible charitable organisation
 ### [Microsoft365](https://www.microsoft.com/en-us/nonprofits/microsoft-365)
 Microsoft for Nonprofits offers eligible charitable organisations up to 300 free Microsoft 365 Business Basic licences, giving teams access to web and mobile versions of Microsoft's core productivity apps, Teams, and 1 TB of OneDrive storage per user. Eligible organisations can also benefit from $2,000 of Microsoft Azure credits annually, providing access to Microsoft's cloud computing platform for hosting, data storage, and a wide range of other technical services.
 
-## Section Management
+## Section/Group Management
 
 ### [Online Scout Manager (OSM)](https://www.onlinescoutmanager.co.uk/)
 Online Scout Manager (OSM) is a web-based administration platform designed by Scout leaders for Scout leaders, trusted by over 100,000 leaders across Scout, Guide, and Boys' Brigade associations worldwide. It brings together member records, badge tracking, programme planning, event management, financial tracking, and parent communications into a single secure system, helping leaders spend less time on paperwork and more time with young people.
@@ -33,6 +33,9 @@ Run your Scout group, unit, district, county, region or area. Scout Suite brings
 
 ### [Scoutworks](https://scoutworks.app)
 Scoutworks is a modern administrative management application designed specifically for UK Scout groups to streamline their local operations, communication, and waiting lists. The platform acts as an intuitive alternative to traditional administrative systems by prioritizing ease of use for volunteer leaders, parents, and executive committees.
+
+### [Wogglebox](https://wogglebox.app)
+Wogglebox is a practical equipment management platform built specifically for Scout groups. It helps leaders and quartermasters manage group kit, bookings, repairs, inspections, uniform and more, while complementing tools such as Online Scout Manager rather than trying to replace them. It’s designed around the realities of volunteer-led Scouting and could be a useful resource for groups looking for a simpler way to manage their equipment.
 
 ## Website Hosting
 

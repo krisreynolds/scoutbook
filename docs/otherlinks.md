@@ -4,6 +4,11 @@ icon: lucide/link
 
 # :lucide-link: Other Useful Links
 
+## Skills & Learning
+
+### [Survival Guides UK](https://survivalguidesuk.com)
+Survival Guides UK provides practical outdoor skills, guides and challenges for Scouts, Leaders, campers, adventurers and anyone looking to develop their outdoor knowledge. The site offers clear, step-by-step resources covering navigation, fire safety, knots, camping, water, first aid and other essential outdoor skills. It is a useful, free resource for Scouts and Scout leaders looking to learn and practise practical skills outdoors.
+
 ## YouTube Channels
 
 ### [Big Man In The Woods](https://www.youtube.com/@BigManintheWoods)
