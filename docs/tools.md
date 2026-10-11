@@ -44,3 +44,6 @@ Wogglebox is a practical equipment management platform built specifically for Sc
 
 ### [Brixly](https://brixly.uk/)
 Brixly is an award-winning UK-based web hosting provider offering a range of services including shared web hosting, reseller hosting, VPS, and dedicated servers, all built on a high-performance NVMe cloud infrastructure powered by 100% renewable energy. It is particularly well regarded in the reseller hosting market and also offers a [free hosting programme for charities](https://brixly.uk/free-hosting-for-charities), making it a popular choice for organisations of all sizes.
+
+### [Krystal](https://krystal.io/)
+Krystal is a UK-based hosting provider operating enterprise-grade cloud servers powered entirely by 100% renewable energy from Ecotricity. As a Certified B Corp that balances purpose with profit, the company reinvests its earnings into environmental initiatives and service enhancements rather than paying cash dividends. In addition to commercial business hosting, virtual private servers, and proprietary cloud infrastructure, Krystal actively supports the non-profit sector by offering [https://krystal.io/hosting/charity](free website hosting plans to UK-registered charities).
