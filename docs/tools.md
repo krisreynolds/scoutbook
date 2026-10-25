@@ -20,7 +20,7 @@ Microsoft for Nonprofits offers eligible charitable organisations up to 300 free
 ## Section/Group Management
 
 ### [Gearlog](https://gearlog.org/home)
-GearLog is a platform for managing outdoors equipment (along with loans, return, qualifications and much more). They offer a fully functional free platform for smaller organisationss and a very affordable paid one for those who have more complex needs.
+GearLog is a platform for managing outdoors equipment (along with loans, return, qualifications and much more). They offer a fully functional free platform for smaller organisations and a very affordable paid one for those who have more complex needs.
 
 ### [Online Scout Manager (OSM)](https://www.onlinescoutmanager.co.uk/)
 Online Scout Manager (OSM) is a web-based administration platform designed by Scout leaders for Scout leaders, trusted by over 100,000 leaders across Scout, Guide, and Boys' Brigade associations worldwide. It brings together member records, badge tracking, programme planning, event management, financial tracking, and parent communications into a single secure system, helping leaders spend less time on paperwork and more time with young people.
